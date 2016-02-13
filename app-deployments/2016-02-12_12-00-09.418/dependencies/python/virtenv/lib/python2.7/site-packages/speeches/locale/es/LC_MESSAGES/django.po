@@ -1,0 +1,1302 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# johnfelipe <ingenierofelipeurrego@gmail.com>, 2014
+# johnfelipe <ingenierofelipeurrego@gmail.com>, 2014
+# mySociety <transifex@mysociety.org>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: sayit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-05 18:07+0000\n"
+"PO-Revision-Date: 2014-12-05 14:08+0000\n"
+"Last-Translator: johnfelipe <ingenierofelipeurrego@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/sayit/language/"
+"es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extra-locales/popolo/behaviors/models.py:51 models.py:233 models.py:629
+msgid "start date"
+msgstr "fecha de inicio"
+
+#: extra-locales/popolo/behaviors/models.py:53
+msgid "The date when the validity of the item starts"
+msgstr "La fecha de inicio de la validez del artículo"
+
+#: extra-locales/popolo/behaviors/models.py:56 models.py:635
+msgid "end date"
+msgstr "fecha de finalización"
+
+#: extra-locales/popolo/behaviors/models.py:58
+msgid "The date when the validity of the item ends"
+msgstr "La fecha en que la validez de la partida termina"
+
+#: extra-locales/popolo/behaviors/models.py:70
+msgid "creation time"
+msgstr "hora de creación"
+
+#: extra-locales/popolo/behaviors/models.py:71
+msgid "last modification time"
+msgstr "última fecha de modificación"
+
+#: extra-locales/popolo/models.py:22 extra-locales/popolo/models.py:92
+#: extra-locales/popolo/models.py:252
+msgid "name"
+msgstr "nombre"
+
+#: extra-locales/popolo/models.py:22
+msgid "A person's preferred full name"
+msgstr "Nombre completo preferida de una persona"
+
+#: extra-locales/popolo/models.py:27
+msgid "family name"
+msgstr "apellido"
+
+#: extra-locales/popolo/models.py:27
+msgid "One or more family names"
+msgstr "Uno o más apellidos"
+
+#: extra-locales/popolo/models.py:28
+msgid "given name"
+msgstr "nombre de pila"
+
+#: extra-locales/popolo/models.py:28
+msgid "One or more primary given names"
+msgstr "Uno o varios nombres de pila"
+
+#: extra-locales/popolo/models.py:29
+msgid "additional name"
+msgstr "nombre adicional"
+
+#: extra-locales/popolo/models.py:29
+msgid "One or more secondary given names"
+msgstr "Uno o más nombres secundarios"
+
+#: extra-locales/popolo/models.py:30
+msgid "honorific prefix"
+msgstr "prefijo honorífico"
+
+#: extra-locales/popolo/models.py:30
+msgid "One or more honorifics preceding a person's name"
+msgstr "Uno o más honoríficos / nombre de una persona precedentes"
+
+#: extra-locales/popolo/models.py:31
+msgid "honorific suffix"
+msgstr "sufijo honorífico"
+
+#: extra-locales/popolo/models.py:31
+msgid "One or more honorifics following a person's name"
+msgstr "Uno o más honoríficos que siguen al nombre de una persona"
+
+#: extra-locales/popolo/models.py:32
+msgid "patronymic name"
+msgstr "nombre patronímico"
+
+#: extra-locales/popolo/models.py:32
+msgid "One or more patronymic names"
+msgstr "Uno o más nombres patronímicos"
+
+#: extra-locales/popolo/models.py:33
+msgid "sort name"
+msgstr "nombre del tipo"
+
+#: extra-locales/popolo/models.py:33
+msgid "A name to use in an lexicographically ordered list"
+msgstr "Un nombre que se utilizará en una lista ordenada lexicográficamente"
+
+#: extra-locales/popolo/models.py:34
+msgid "email"
+msgstr "email"
+
+#: extra-locales/popolo/models.py:34
+msgid "A preferred email address"
+msgstr "Una dirección de correo electrónico preferido"
+
+#: extra-locales/popolo/models.py:35
+msgid "gender"
+msgstr "género"
+
+#: extra-locales/popolo/models.py:35
+msgid "A gender"
+msgstr "Un género"
+
+#: extra-locales/popolo/models.py:36
+msgid "birth date"
+msgstr "fecha de nacimiento"
+
+#: extra-locales/popolo/models.py:36
+msgid "A date of birth"
+msgstr "Una fecha de nacimiento"
+
+#: extra-locales/popolo/models.py:37
+msgid "death date"
+msgstr "fecha de la muerte"
+
+#: extra-locales/popolo/models.py:37
+msgid "A date of death"
+msgstr "A la fecha de la muerte"
+
+#: extra-locales/popolo/models.py:38
+msgid "summary"
+msgstr "resumen"
+
+#: extra-locales/popolo/models.py:38
+msgid "A one-line account of a person's life"
+msgstr "Una cuenta de una línea de vida de una persona"
+
+#: extra-locales/popolo/models.py:39
+msgid "biography"
+msgstr "biografía"
+
+#: extra-locales/popolo/models.py:39
+msgid "An extended account of a person's life"
+msgstr "Una cuenta prolongado de la vida de una persona"
+
+#: extra-locales/popolo/models.py:40
+msgid "image"
+msgstr "imagen"
+
+#: extra-locales/popolo/models.py:40
+msgid "A URL of a head shot"
+msgstr "A URL of a head shot"
+
+#: extra-locales/popolo/models.py:92
+msgid "A primary name, e.g. a legally recognized name"
+msgstr "Un nombre principal, por ejemplo, un nombre reconocido legalmente"
+
+#: extra-locales/popolo/models.py:97
+msgid "classification"
+msgstr "clasificación"
+
+#: extra-locales/popolo/models.py:97
+msgid "An organization category, e.g. committee"
+msgstr "Una categoría de organización, por ejemplo, comité"
+
+#: extra-locales/popolo/models.py:100
+msgid "The organization that contains this organization"
+msgstr "La organización que contiene esta organización"
+
+#: extra-locales/popolo/models.py:102
+msgid "dissolution date"
+msgstr "fecha de disolución"
+
+#: extra-locales/popolo/models.py:108
+msgid "A date of dissolution"
+msgstr "Fecha de disolución"
+
+#: extra-locales/popolo/models.py:109
+msgid "founding date"
+msgstr "fecha de fundación"
+
+#: extra-locales/popolo/models.py:115
+msgid "A date of founding"
+msgstr "Una fecha de fundación"
+
+#: extra-locales/popolo/models.py:153 extra-locales/popolo/models.py:184
+#: extra-locales/popolo/models.py:232
+msgid "label"
+msgstr "etiqueta"
+
+#: extra-locales/popolo/models.py:153
+msgid "A label describing the post"
+msgstr "Una etiqueta que describe el mensaje"
+
+#: extra-locales/popolo/models.py:154 extra-locales/popolo/models.py:185
+msgid "role"
+msgstr "rol"
+
+#: extra-locales/popolo/models.py:154
+msgid "The function that the holder of the post fulfills"
+msgstr "La función que el titular de los fulfills mensaje"
+
+#: extra-locales/popolo/models.py:158
+msgid "The organization in which the post is held"
+msgstr "La organización en la que se ocupen"
+
+#: extra-locales/popolo/models.py:184
+msgid "A label describing the membership"
+msgstr "Una etiqueta que describe el número de miembros"
+
+#: extra-locales/popolo/models.py:185
+msgid "The role that the person fulfills in the organization"
+msgstr "El papel que la persona cumple en la organización"
+
+#: extra-locales/popolo/models.py:189
+msgid "The person who is a party to the relationship"
+msgstr "La persona que es parte en la relación"
+
+#: extra-locales/popolo/models.py:193
+msgid "The organization that is a party to the relationship"
+msgstr "La organización que es parte en la relación"
+
+#: extra-locales/popolo/models.py:196
+msgid ""
+"The organization on whose behalf the person is a party to the relationship"
+msgstr "La organización en cuyo nombre la persona que es parte en la relación"
+
+#: extra-locales/popolo/models.py:200
+msgid "The post held by the person in the organization through this membership"
+msgstr ""
+"El puesto ocupado por la persona en la organización a través de esta "
+"membresía"
+
+#: extra-locales/popolo/models.py:223
+msgid "Fax"
+msgstr "Fax"
+
+#: extra-locales/popolo/models.py:224
+msgid "Telephone"
+msgstr "Telefono"
+
+#: extra-locales/popolo/models.py:225
+msgid "Mobile"
+msgstr "Celular"
+
+#: extra-locales/popolo/models.py:226
+msgid "Email"
+msgstr "Email"
+
+#: extra-locales/popolo/models.py:227
+msgid "Snail mail"
+msgstr "Snail mail"
+
+#: extra-locales/popolo/models.py:228
+msgid "Twitter"
+msgstr "Twitter"
+
+#: extra-locales/popolo/models.py:229
+msgid "Facebook"
+msgstr "Facebook"
+
+#: extra-locales/popolo/models.py:232
+msgid "A human-readable label for the contact detail"
+msgstr "Una etiqueta legible para el detalle de contacto"
+
+#: extra-locales/popolo/models.py:233 models.py:615
+msgid "type"
+msgstr "tipo"
+
+#: extra-locales/popolo/models.py:233
+msgid "A type of medium, e.g. 'fax' or 'email'"
+msgstr "Un tipo de medio, por ejemplo, 'fax' o 'e-mail'"
+
+#: extra-locales/popolo/models.py:234
+msgid "value"
+msgstr "valor"
+
+#: extra-locales/popolo/models.py:234
+msgid "A value, e.g. a phone number or email address"
+msgstr ""
+"Un valor, por ejemplo, un número de teléfono o dirección de correo "
+"electrónico"
+
+#: extra-locales/popolo/models.py:235 extra-locales/popolo/models.py:253
+#: extra-locales/popolo/models.py:280 extra-locales/popolo/models.py:292
+msgid "note"
+msgstr "nota"
+
+#: extra-locales/popolo/models.py:235
+msgid "A note, e.g. for grouping contact details by physical location"
+msgstr ""
+"Una nota, por ejemplo, para agrupar los datos de contacto según la ubicación "
+"física"
+
+#: extra-locales/popolo/models.py:252
+msgid "An alternate or former name"
+msgstr "Un nombre alternativo o anterior"
+
+#: extra-locales/popolo/models.py:253
+msgid "A note, e.g. 'Birth name'"
+msgstr "Una nota, por ejemplo, 'Nombre de nacimiento'"
+
+#: extra-locales/popolo/models.py:267
+msgid "identifier"
+msgstr "identificador"
+
+#: extra-locales/popolo/models.py:267
+msgid "An issued identifier, e.g. a DUNS number"
+msgstr "Un identificador emitido, por ejemplo, un número DUNS"
+
+#: extra-locales/popolo/models.py:268
+msgid "scheme"
+msgstr "esquema"
+
+#: extra-locales/popolo/models.py:268
+msgid "An identifier scheme, e.g. DUNS"
+msgstr "Un esquema de identificador, por ejemplo, DUNS"
+
+#: extra-locales/popolo/models.py:279 extra-locales/popolo/models.py:291
+msgid "url"
+msgstr "url"
+
+#: extra-locales/popolo/models.py:279 extra-locales/popolo/models.py:291
+msgid "A URL"
+msgstr "Una URL"
+
+#: extra-locales/popolo/models.py:280
+msgid "A note, e.g. 'Wikipedia page'"
+msgstr "Una nota, por ejemplo, \"La página de Wikipedia\""
+
+#: extra-locales/popolo/models.py:292
+msgid "A note, e.g. 'Parliament website'"
+msgstr "Una nota, por ejemplo, 'Sitio web del Parlamento'"
+
+#: forms.py:76
+msgid "Assign to section"
+msgstr "Asigne a la sección"
+
+#: forms.py:202
+msgid "You must select an existing speaker"
+msgstr "Usted debe seleccionar un orador existente"
+
+#: forms.py:295
+msgid "Choose tags"
+msgstr "Elija etiquetas"
+
+#: forms.py:314
+msgid "You must provide either text or some audio"
+msgstr "Usted debe proporcionar ya sea texto o algo de audio"
+
+#: forms.py:332
+msgid "If you provide a start time you must give a start date too"
+msgstr ""
+"Si usted proporciona una hora de inicio debe dar una fecha de inicio también"
+
+#: forms.py:339
+msgid "If you provide an end time you must give an end date too"
+msgstr ""
+"Si usted proporciona una hora de finalización debe dar una fecha de "
+"finalización también"
+
+#: forms.py:478
+msgid "Something cannot be its own parent"
+msgstr "Algo que no puede ser su propio padre"
+
+#: forms.py:482
+msgid "Something cannot have a parent that is also a descendant"
+msgstr "Algo no puede tener un padre que es también un descendiente"
+
+#: forms.py:497
+msgid "New speaker"
+msgstr "Nuevo orador"
+
+#: forms.py:505
+#, python-format
+msgid "This speaker has %(count)d speech. What would you like to do with it?"
+msgid_plural ""
+"This speaker has %(count)d speeches. What would you like to do with them?"
+msgstr[0] ""
+"Este orador tiene %(count)d discurso. ¿Qué te gustaría hacer con él?"
+msgstr[1] ""
+"Este orador tiene %(count)d discursos. ¿Qué te gustaría hacer con ellos?"
+
+#: forms.py:511
+msgid "Assign it to another speaker"
+msgid_plural "Assign them to another speaker"
+msgstr[0] "Asigne a otro orador"
+msgstr[1] "Asignelos a otro orador"
+
+#: forms.py:513
+msgid "Make it into narrative (i.e. remove the speaker)"
+msgid_plural "Make them into narrative (i.e. remove the speaker)"
+msgstr[0] "Que sea en la narración (es decir, quitar el altavoz)"
+msgstr[1] "Haz que en la narración (es decir, quitar el altavoz)"
+
+#: forms.py:515
+msgid "Delete it"
+msgid_plural "Delete them"
+msgstr[0] "Eliminarlo"
+msgstr[1] "Eliminarlos"
+
+#: forms.py:531
+msgid "You can't assign speeches to the speaker you're deleting"
+msgstr "No se puede asignar discursos al orador que va a eliminar"
+
+#: forms.py:537
+msgid "You must choose a new speaker if reassigning speeches"
+msgstr "Usted debe elegir un nuevo orador si reasigna los discursos"
+
+#: forms.py:543
+msgid "You must not choose a new speaker unless reassigning speeches"
+msgstr "Usted no debe elegir un nuevo orador a menos que reasigne discursos"
+
+#: forms.py:592
+msgid "Start time is before recording start time!"
+msgstr "Hora de inicio es antes de grabar la hora de inicio!"
+
+#: forms.py:602
+msgid "Difference between timestamps is too long for the uploaded audio"
+msgstr ""
+"Diferencia entre las marcas de tiempo es demasiado largo para el audio "
+"cargado"
+
+#: forms.py:610
+msgid "Timestamps must be distinct"
+msgstr "Las marcas de tiempo deben ser distintas"
+
+#: forms.py:625
+msgid "Location of Popolo JSON data"
+msgstr "Ubicación de los datos Popolo JSON"
+
+#: importers/import_popolo.py:135
+msgid "Either a file path or a URL is needed."
+msgstr "Se necesita ya sea una ruta de archivo o una URL."
+
+#: importers/import_popolo.py:138
+#, python-format
+msgid "Failed to decode JSON at %(source)s"
+msgstr "No se pudo decodificar JSON en %(source)s"
+
+#: importers/import_popolo.py:164
+msgid "The json must contain either an object or an array"
+msgstr "El json debe contener ya sea un objeto o una matriz"
+
+#: management/commands/sayit_search_make_index_live.py:9
+msgid "Update the default alias to point at search index write alias is using"
+msgstr ""
+"Actualice los alias por defecto para señalar en el índice de búsqueda de "
+"escritura que está utilizando"
+
+#: management/commands/sayit_search_new_index.py:11
+msgid "Create a new dated search index for reindexing with no downtime"
+msgstr ""
+"Crear un nuevo índice de búsqueda de fecha para reindexar sin tiempo de "
+"inactividad"
+
+#: models.py:111 models.py:246
+msgid "slug"
+msgstr "slug"
+
+#: models.py:118
+msgid "image_cache"
+msgstr "image_cache"
+
+#: models.py:122
+msgid "If image is set, a local copy will be stored here."
+msgstr "Si la imagen está establecida, una copia local se almacenará aquí."
+
+#: models.py:128 models.py:609
+msgid "speaker"
+msgstr "ponente"
+
+#: models.py:129
+msgid "speakers"
+msgstr "ponentes"
+
+#: models.py:195
+msgid "tag"
+msgstr "tag"
+
+#: models.py:196 models.py:641
+msgid "tags"
+msgstr "tags"
+
+#: models.py:224 models.py:590
+msgid "number"
+msgstr "número"
+
+#: models.py:224
+msgid "The number of the section"
+msgstr "El número de la sección"
+
+#: models.py:226 models.py:593
+msgid "heading"
+msgstr "título"
+
+#: models.py:226
+msgid "The heading of the section"
+msgstr "El título de la sección"
+
+#: models.py:228 models.py:596
+msgid "subheading"
+msgstr "subtítulo"
+
+#: models.py:229
+msgid "The subheading of the section"
+msgstr "El subtítulo de la sección"
+
+#: models.py:231
+msgid "description"
+msgstr "descripción"
+
+#: models.py:231
+msgid "Longer description, HTML"
+msgstr "Descripción más larga, HTML"
+
+#: models.py:234
+msgid "What date did the section start?"
+msgstr "¿En qué fecha se inicia la sección?"
+
+#: models.py:236 models.py:632
+msgid "start time"
+msgstr "hora de inicio"
+
+#: models.py:237
+msgid "What time did the section start?"
+msgstr "¿A qué hora se inicia la sección?"
+
+#: models.py:238
+msgid "document number"
+msgstr "número de documento"
+
+#: models.py:239
+msgid "legislature"
+msgstr "legislatura"
+
+#: models.py:241
+msgid "session"
+msgstr "sesión"
+
+#: models.py:241
+msgid "Legislative session"
+msgstr "sesión Legislativa"
+
+#: models.py:243
+msgid "parent"
+msgstr "padre"
+
+#: models.py:247 models.py:650
+msgid "source URL"
+msgstr "URL de origen"
+
+#: models.py:252
+msgid "section"
+msgstr "sección"
+
+#: models.py:253
+msgid "sections"
+msgstr "secciones"
+
+#: models.py:258 models.py:586
+msgid "Section"
+msgstr "sección"
+
+#: models.py:268
+msgid "You must specify at least one of num/heading/subheading"
+msgstr "Debe especificar al menos una de num / título / subtítulo"
+
+#: models.py:579
+msgid "audio"
+msgstr "audio"
+
+#: models.py:581
+msgid "text"
+msgstr "texto"
+
+#: models.py:582
+msgid "The text of the speech"
+msgstr "El texto del discurso"
+
+#: models.py:591
+msgid "The number of the speech, if relevant"
+msgstr "El número de la intervención, si procede"
+
+#: models.py:594
+msgid "The heading of the speech, if relevant"
+msgstr "El rubro de la intervención, si procede"
+
+#: models.py:597
+msgid "The subheading of the speech, if relevant"
+msgstr "El subtítulo de la intervención, si procede"
+
+#: models.py:601
+msgid "event"
+msgstr "evento"
+
+#: models.py:602
+msgid "Was the speech at a particular event?"
+msgstr "Fue el discurso en un evento en particular?"
+
+#: models.py:604
+msgid "location"
+msgstr "ubicación"
+
+#: models.py:605
+msgid "Where the speech took place"
+msgstr "Donde el discurso tuvo lugar"
+
+#: models.py:610
+msgid "Who gave this speech?"
+msgstr "¿Quién dio este discurso?"
+
+#: models.py:617
+msgid "Speech"
+msgstr "Discurso / Acta"
+
+#: models.py:618
+msgid "Question"
+msgstr "pregunta"
+
+#: models.py:619
+msgid "Answer"
+msgstr "Respuesta"
+
+#: models.py:620
+msgid "Scene"
+msgstr "Escena"
+
+#: models.py:621
+msgid "Narrative"
+msgstr "narrativa"
+
+#: models.py:622
+msgid "Summary"
+msgstr "resumen"
+
+#: models.py:623
+msgid "Other"
+msgstr "otro"
+
+#: models.py:625
+msgid "What sort of speech is this?"
+msgstr "¿Qué clase de palabra es ésta?"
+
+#: models.py:630
+msgid "What date did the speech start?"
+msgstr "¿En qué fecha se inicia el discurso?"
+
+#: models.py:633
+msgid "What time did the speech start?"
+msgstr "¿A qué hora empezó el discurso?"
+
+#: models.py:636
+msgid "What date did the speech end?"
+msgstr "¿En qué fecha terminó el discurso?"
+
+#: models.py:638
+msgid "end time"
+msgstr "hora de finalización"
+
+#: models.py:639
+msgid "What time did the speech end?"
+msgstr "¿A qué hora terminó el discurso?"
+
+#: models.py:644
+msgid "public"
+msgstr "publico"
+
+#: models.py:644
+msgid "Is this speech public?"
+msgstr "Es pública este discurso?"
+
+#: models.py:655
+msgid "celery task ID"
+msgstr "celery task ID"
+
+#: models.py:658
+msgid "speech"
+msgstr "Discurso / Acta"
+
+#: models.py:659
+msgid "speeches"
+msgstr "discursos / actas"
+
+#: templates/pagination/pagination.html:5
+#: templates/pagination/pagination.html:7
+msgid "Previous"
+msgstr "anterior"
+
+#: templates/pagination/pagination.html:21
+#: templates/pagination/pagination.html:23
+msgid "Next"
+msgstr "próximo"
+
+#: templates/search/search.html:8 templates/search/search.html.py:11
+#: templates/search/search.html:12 templates/speeches/_home.html:29
+#: templates/speeches/_home.html.py:30
+#: templates/speeches/speaker_detail.html:111
+msgid "Search"
+msgstr "búsqueda"
+
+#: templates/search/search.html:16
+#, python-format
+msgid "Search only speeches by %(speaker)s"
+msgstr "Buscar sólo los discursos de %(speaker)s"
+
+#: templates/search/search.html:29 templates/speeches/base.html:49
+msgid "Speakers"
+msgstr "ponente"
+
+#: templates/search/search.html:38
+#, python-format
+msgid "Mentions of <strong>&ldquo;%(query)s&rdquo;</strong> in speeches"
+msgstr "Menciones de <strong>&ldquo;%(query)s&rdquo;</strong> en el acta"
+
+#: templates/search/search.html:47
+msgid "No results found"
+msgstr "No se han encontrado resultados"
+
+#: templates/speeches/_home.html:14 templates/speeches/parentless_list.html:20
+msgid "Add a new speech"
+msgstr "Añadir un nuevo discurso"
+
+#: templates/speeches/_home.html:15 templates/speeches/parentless_list.html:21
+#: templates/speeches/section_form.html:9
+#: templates/speeches/section_form.html:19
+msgid "Add a section"
+msgstr "Añadir una sección"
+
+#: templates/speeches/_home.html:16
+#: templates/speeches/popolo_import_form.html:6
+#: templates/speeches/popolo_import_form.html:12
+#: templates/speeches/speaker_list.html:15
+msgid "Import speakers"
+msgstr "Importar oradores"
+
+#: templates/speeches/_home.html:26
+msgid "Search speeches and statements"
+msgstr "Buscar discursos y declaraciones"
+
+#: templates/speeches/_home.html:55
+#, python-format
+msgid "<a href=\"%(url_parentless_list)s\"><strong>1</strong></a> speech"
+msgid_plural ""
+"<a href=\"%(url_parentless_list)s\"><strong>%(n)s</strong></a> speeches"
+msgstr[0] "<a href=\"%(url_parentless_list)s\"><strong>1</strong></a> Acta"
+msgstr[1] ""
+"<a href=\"%(url_parentless_list)s\"><strong>%(n)s</strong></a> actas"
+
+#: templates/speeches/_home.html:60
+#, python-format
+msgid "<a href=\"%(url_speaker_list)s\"><strong>1</strong></a> speaker"
+msgid_plural ""
+"<a href=\"%(url_speaker_list)s\"><strong>%(n)s</strong></a> speakers"
+msgstr[0] "<a href=\"%(url_speaker_list)s\"><strong>1</strong></a> orador"
+msgstr[1] ""
+"<a href=\"%(url_speaker_list)s\"><strong>%(n)s</strong></a> oradores"
+
+#: templates/speeches/_home.html:65
+#, python-format
+msgid "<a href=\"%(url_parentless_list)s\"><strong>1</strong></a> section"
+msgid_plural ""
+"<a href=\"%(url_parentless_list)s\"><strong>%(n)s</strong></a> sections"
+msgstr[0] "<a href=\"%(url_parentless_list)s\"><strong>1</strong></a> sección"
+msgstr[1] ""
+"<a href=\"%(url_parentless_list)s\"><strong>%(n)s</strong></a> secciones"
+
+#: templates/speeches/_home.html:81
+msgid "Brilliant!"
+msgstr "Genial!"
+
+#: templates/speeches/_home.html:82
+msgid ""
+"Now you&rsquo;ve got your own public database for speeches and statements."
+msgstr ""
+"Ahora usted tiene su propia base de datos pública de discursos y "
+"declaraciones."
+
+#: templates/speeches/_home.html:83
+msgid ""
+"However, it&rsquo;s totally empty. Let&rsquo;s get started by adding "
+"something."
+msgstr "Sin embargo, esta totalmente vacía. Vamos a empezar añadiendo algo."
+
+#: templates/speeches/_home.html:84 templates/speeches/parentless_list.html:59
+#: templates/speeches/speaker_list.html:47
+msgid "Add your first statement"
+msgstr "Agregue su primera declaración"
+
+#: templates/speeches/_home.html:86 templates/speeches/parentless_list.html:61
+#: templates/speeches/speaker_list.html:52
+msgid "This is a brand new SayIt site."
+msgstr "Este es un nuevo sitio marca SayIt."
+
+#: templates/speeches/_home.html:87 templates/speeches/parentless_list.html:62
+#: templates/speeches/speaker_list.html:53
+msgid ""
+"Its creator hasn&rsquo;t yet added any speeches or statements for you to see."
+msgstr ""
+"Su creador aún no ha añadido ningún discursos o declaraciones para que usted "
+"vea."
+
+#: templates/speeches/_home.html:88 templates/speeches/parentless_list.html:63
+#: templates/speeches/speaker_list.html:54
+msgid "Learn more about SayIt"
+msgstr "Aprenda más sobre SayIt"
+
+#: templates/speeches/base.html:48
+msgid "Home"
+msgstr "Inicio"
+
+#: templates/speeches/base.html:50 templates/speeches/parentless_list.html:7
+#: templates/speeches/parentless_list.html:23
+#: templates/speeches/speaker_detail.html:97
+msgid "Speeches"
+msgstr "Actas"
+
+#: templates/speeches/parentless_list.html:39
+msgid "Speeches not in a section"
+msgstr "No discursos en una sección"
+
+#: templates/speeches/parentless_list.html:57
+#: templates/speeches/speaker_list.html:44
+msgid "You haven&rsquo;t added any speeches or statements yet"
+msgstr "Usted no ha añadido ningún discursos o declaraciones aún"
+
+#: templates/speeches/parentless_list.html:58
+msgid ""
+"Once you have, you&rsquo;ll be able to browse speeches and organise them "
+"into sections here."
+msgstr ""
+"Una vez que usted tiene, usted será capaz de navegar por los discursos y "
+"organizarlos en secciones aquí."
+
+#: templates/speeches/popolo_import_form.html:15
+msgid ""
+"\n"
+"    <p>Speakers can be imported into SayIt if they are available in <a "
+"href='http://www.popoloproject.com/'>Popolo JSON</a> format.<p>\n"
+"    <p>Enter the location of the speaker data as either\n"
+"      <ul>\n"
+"        <li>\n"
+"          A URL, or path to a local file, containing Popolo JSON in the "
+"format\n"
+"          <pre>\n"
+"{\n"
+"    'persons': [&lt;a list of persons&gt;],\n"
+"    'organizations': [],\n"
+"    'posts': [],\n"
+"    ...\n"
+"}\n"
+"          </pre>\n"
+"        <li>\n"
+"          A URL, or path to a local file, containing Popolo JSON in the "
+"format\n"
+"          <pre>\n"
+"[&lt;a list of persons&gt;]\n"
+"          </pre>\n"
+"        </li>\n"
+"        <li>\n"
+"          A PopIt API base url, such as\n"
+"          <a href=\"https://kenyan-politicians.popit.mysociety.org/api/v0.1/"
+"\">https://kenyan-politicians.popit.mysociety.org/api/v0.1/</a>\n"
+"        </li>\n"
+"      </ul>\n"
+"    </p>\n"
+"  "
+msgstr ""
+"\n"
+"    <p>Los oradores se pueden importar en SayIt si están disponibles en<a "
+"href='http://www.popoloproject.com/'>Popolo JSON</a> formato.<p>\n"
+"    <p>Escriba la ubicación de los datos de los oradores, ya sea como\n"
+"      <ul>\n"
+"        <li>\n"
+"          Una dirección URL o ruta de acceso a un archivo local, que "
+"contiene Popolo JSON en el formato\n"
+"          <pre>\n"
+"{\n"
+"    'persons': [&lt;a list of persons&gt;],\n"
+"    'organizations': [],\n"
+"    'posts': [],\n"
+"    ...\n"
+"}\n"
+"          </pre>\n"
+"        <li>\n"
+"          Una dirección URL o ruta de acceso a un archivo local, que "
+"contiene Popolo JSON en el formato\n"
+"          <pre>\n"
+"[&lt;a list of persons&gt;]\n"
+"          </pre>\n"
+"        </li>\n"
+"        <li>\n"
+"          Un URL base API Popit, tales como\n"
+"          <a href=\"https://kenyan-politicians.popit.mysociety.org/api/v0.1/"
+"\">https://kenyan-politicians.popit.mysociety.org/api/v0.1/</a>\n"
+"        </li>\n"
+"      </ul>\n"
+"    </p>\n"
+"  "
+
+#: templates/speeches/popolo_import_form.html:44
+msgid "Import People (may take some time)"
+msgstr "Importar Personas (puede tardar algún tiempo)"
+
+#: templates/speeches/recording_detail.html:6
+#: templates/speeches/recording_detail.html:11
+#: templates/speeches/recording_form.html:6
+#: templates/speeches/recording_form.html:11
+#, python-format
+msgid "Recording #%(id)s"
+msgstr "Registro #%(id)s"
+
+#: templates/speeches/recording_detail.html:16
+#: templates/speeches/recording_form.html:15 templates/speeches/speech.html:84
+msgid "This speech has audio"
+msgstr "Este discurso tiene audio"
+
+#: templates/speeches/recording_detail.html:42
+#: templates/speeches/recording_form.html:19
+msgid "Actions"
+msgstr "acciones"
+
+#: templates/speeches/recording_detail.html:48
+#: templates/speeches/recording_form.html:40
+msgid "Update"
+msgstr "actualización"
+
+#: templates/speeches/section_confirm_delete.html:5
+msgid "Delete section"
+msgstr "Eliminar sección"
+
+#: templates/speeches/section_confirm_delete.html:11
+#: templates/speeches/speech_confirm_delete.html:11
+msgid "Confirm delete?"
+msgstr "Confirmar borrar?"
+
+#: templates/speeches/section_detail.html:23
+#: templates/speeches/speaker_detail.html:102
+msgid "Add speech"
+msgstr "Añadir discurso"
+
+#: templates/speeches/section_detail.html:24
+msgid "Add subsection"
+msgstr "Añadir subsección"
+
+#: templates/speeches/section_detail.html:25
+#: templates/speeches/section_form.html:7
+#: templates/speeches/section_form.html:17
+msgid "Edit section"
+msgstr "Editar sección"
+
+#: templates/speeches/section_detail.html:33
+#: templates/speeches/speech_detail.html:145
+msgid "Source"
+msgstr "fuente"
+
+#: templates/speeches/section_detail.html:94
+#: templates/speeches/speech_detail.html:168
+msgid "Keyboard shortcuts"
+msgstr "atajos de teclado"
+
+#: templates/speeches/section_detail.html:95
+msgid "previous section"
+msgstr "sección anterior"
+
+#: templates/speeches/section_detail.html:96
+msgid "next section"
+msgstr "siguiente sección"
+
+#: templates/speeches/section_detail.html:110
+msgid "This section is empty"
+msgstr "Esta sección está vacía"
+
+#: templates/speeches/section_detail.html:111
+msgid "Add a new speech here"
+msgstr "Añadir un nuevo discurso aquí"
+
+#: templates/speeches/section_form.html:25
+msgid "Update section"
+msgstr "actualización de la sección"
+
+#: templates/speeches/section_form.html:27
+msgid "Add section"
+msgstr "Añadir sección"
+
+#: templates/speeches/speaker_delete.html:7
+#: templates/speeches/speaker_delete.html:16
+#, python-format
+msgid "Delete speaker: %(name)s"
+msgstr "Borrar orador: %(name)s"
+
+#: templates/speeches/speaker_delete.html:23
+#: templates/speeches/speaker_detail.html:26
+msgid "Delete speaker"
+msgstr "Borrar orador"
+
+#: templates/speeches/speaker_detail.html:15
+#, python-format
+msgid "Speeches by %(speaker)s"
+msgstr "Discursos por %(speaker)s"
+
+#: templates/speeches/speaker_detail.html:25
+#: templates/speeches/speaker_form.html:6
+#: templates/speeches/speaker_form.html:16
+msgid "Edit speaker"
+msgstr "Editar orador"
+
+#: templates/speeches/speaker_detail.html:49
+msgid "Appearance"
+msgid_plural "Appearances"
+msgstr[0] "apariencia"
+msgstr[1] "apariencias"
+
+#: templates/speeches/speaker_detail.html:58
+msgctxt "speaker count"
+msgid "Speech"
+msgid_plural "Speeches"
+msgstr[0] "Discurso"
+msgstr[1] "Discursos"
+
+#: templates/speeches/speaker_detail.html:85
+msgid "Longest speech"
+msgstr "discurso más largo"
+
+#: templates/speeches/speaker_detail.html:110
+msgid "Search this person's speeches"
+msgstr "Buscar en los discursos de esta persona"
+
+#: templates/speeches/speaker_detail.html:120
+#, python-format
+msgid "%(speaker)s has no recorded speeches yet."
+msgstr "%(speaker)s no tiene actas grabadas todavía."
+
+#: templates/speeches/speaker_form.html:8
+#: templates/speeches/speaker_form.html:18
+msgid "Add a speaker"
+msgstr "Añadir Orador / Ponente"
+
+#: templates/speeches/speaker_form.html:24
+msgid "Update speaker"
+msgstr "actualización de ponente"
+
+#: templates/speeches/speaker_form.html:26
+msgid "Add speaker"
+msgstr "Añadir ponente"
+
+#: templates/speeches/speaker_list.html:7
+#: templates/speeches/speaker_list.html:18
+msgid "All Speakers"
+msgstr "Todos los oradores"
+
+#: templates/speeches/speaker_list.html:14
+msgid "Add a new speaker"
+msgstr "Añadir Orador / Ponente"
+
+#: templates/speeches/speaker_list.html:45
+msgid ""
+"Once you have, this page will contain a list of all the different people who "
+"made each statement in this SayIt site."
+msgstr ""
+"Una vez que usted tiene, esta página contiene una lista de todas las "
+"diferentes personas que hicieron cada declaración en este sitio SayIt."
+
+#: templates/speeches/speaker_list.html:48
+msgid "Add your first speaker"
+msgstr "Añadir su primer Orador / Ponente"
+
+#: templates/speeches/speech.html:23
+msgid "Invisible"
+msgstr "invisible"
+
+#: templates/speeches/speech.html:94 templates/speeches/speech.html.py:110
+#: templates/speeches/speech.html:135
+msgid "Link in context"
+msgstr "Enlace en contexto"
+
+#: templates/speeches/speech.html:96 templates/speeches/speech.html.py:112
+#: templates/speeches/speech.html:137
+msgid "Link"
+msgstr "enlace"
+
+#: templates/speeches/speech.html:106
+msgid "[ recorded audio ]"
+msgstr "[Audio grabado]"
+
+#: templates/speeches/speech.html:131
+#: templates/speeches/speech_detail.html:148
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/speeches/speech.html:132
+#: templates/speeches/speech_detail.html:149
+msgid "Delete"
+msgstr "Borrar"
+
+#: templates/speeches/speech_confirm_delete.html:5
+msgid "Delete speech"
+msgstr "Eliminar acta"
+
+#: templates/speeches/speech_detail.html:31
+msgid ""
+"Please wait, audio is being transcribed. This page will automatically "
+"refresh in 5 seconds..."
+msgstr ""
+"Por favor espere, el audio se está transcribiendo. Esta página se "
+"actualizará automáticamente en 5 segundos ..."
+
+#: templates/speeches/speech_detail.html:39
+msgid "Your speech has been saved!"
+msgstr "Su discurso se ha guardado!"
+
+#: templates/speeches/speech_detail.html:41
+msgid "Add another speech like this"
+msgstr "Añadir otro discurso como éste"
+
+#: templates/speeches/speech_detail.html:42
+msgid "Show speech in context"
+msgstr "Mostrar discurso en el contexto"
+
+#: templates/speeches/speech_detail.html:44
+msgid "Add another speech"
+msgstr "Añadir otro discurso"
+
+#: templates/speeches/speech_detail.html:62
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> by <span "
+"class=\"speech__meta-data__speaker-name\"> <a href=\"%(speaker_url)s\">"
+"%(speaker)s</a> </span> on <span class=\"speech__meta-data__date\">%(date)s</"
+"span>"
+msgstr ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> por <span "
+"class=\"speech__meta-data__speaker-name\"> <a href=\"%(speaker_url)s\">"
+"%(speaker)s</a> </span> en <span class=\"speech__meta-data__date\">%(date)s</"
+"span>"
+
+#: templates/speeches/speech_detail.html:72
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> by <span "
+"class=\"speech__meta-data__speaker-name\"> <a href=\"%(speaker_url)s\">"
+"%(speaker)s</a> </span>"
+msgstr ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> por <span "
+"class=\"speech__meta-data__speaker-name\"> <a href=\"%(speaker_url)s\">"
+"%(speaker)s</a> </span>"
+
+#: templates/speeches/speech_detail.html:82
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> by <span "
+"class=\"speech__meta-data__speaker-name\">an unknown speaker</span> on <span "
+"class=\"speech__meta-data__date\">%(date)s</span>"
+msgstr ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> por <span "
+"class=\"speech__meta-data__speaker-name\">un orador desconocido</span> en "
+"<span class=\"speech__meta-data__date\">%(date)s</span>"
+
+#: templates/speeches/speech_detail.html:90
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> by <span "
+"class=\"speech__meta-data__speaker-name\">an unknown speaker</span>"
+msgstr ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> por <span "
+"class=\"speech__meta-data__speaker-name\">un orador desconocido</span>"
+
+#: templates/speeches/speech_detail.html:99
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> on <span "
+"class=\"speech__meta-data__date\">%(date)s</span>"
+msgstr ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> en <span "
+"class=\"speech__meta-data__date\">%(date)s</span>"
+
+#: templates/speeches/speech_detail.html:105
+#, python-format
+msgid "<span class=\"speech__meta-data__speech-type\">%(type)s</span>"
+msgstr "<span class=\"speech__meta-data__speech-type\">%(type)s</span>"
+
+#: templates/speeches/speech_detail.html:142
+msgid "Show context"
+msgstr "mostrar contexto"
+
+#: templates/speeches/speech_detail.html:169
+msgid "previous speech"
+msgstr "discurso anterior"
+
+#: templates/speeches/speech_detail.html:170
+msgid "next speech"
+msgstr "próximo discurso"
+
+#: templates/speeches/speech_form.html:15
+#: templates/speeches/speech_form.html:37
+msgid "Edit speech"
+msgstr "Editar acta"
+
+#: templates/speeches/speech_form.html:17
+#: templates/speeches/speech_form.html:39
+msgid "Add a speech"
+msgstr "Añadir Ponente"
+
+#: templates/speeches/speech_form.html:40
+msgid ""
+"You can cut and paste quotes from news sites, social media or blogs,<br>or "
+"transcribe any audio or video records you may have access to"
+msgstr ""
+"Puede cortar y pegar las citas de los sitios de noticias, redes sociales o "
+"blogs, <br> o transcribir cualquier registro de audio o video que pueda "
+"tener acceso a la"
+
+#: templates/speeches/speech_form.html:71
+msgid "Date &amp; Time"
+msgstr "Fecha y tiempo"
+
+#: templates/speeches/speech_form.html:95
+msgid "Event &amp; Location"
+msgstr "Evento & ubicación"
+
+#: templates/speeches/speech_form.html:104
+msgid "Title &amp; Tags"
+msgstr "Titulo & Etiquetas"
+
+#: templates/speeches/speech_form.html:115
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: templates/speeches/speech_form.html:117
+msgid "Save speech"
+msgstr "Guardar Acta"
+
+#: views.py:291
+#, python-format
+msgid "View Speaker: %(speaker_name)s"
+msgstr "Ver orador: %(speaker_name)s"
+
+#: views.py:452
+#, python-format
+msgid "View Section: %(section_title)s"
+msgstr "Ver Sección: %(section_title)s"
+
+#: views.py:508
+msgid "Speeches assigned."
+msgstr "Discursos asignados."
+
+#: views.py:661
+#, python-format
+msgid "%(created)d speaker created."
+msgid_plural "%(created)d speakers created."
+msgstr[0] "%(created)d orador creado."
+msgstr[1] "%(created)d oradores creados."
+
+#: views.py:666
+#, python-format
+msgid "%(refreshed)d speaker refreshed."
+msgid_plural "%(refreshed)d speakers refreshed."
+msgstr[0] "%(refreshed)d orador actualizado."
+msgstr[1] "%(refreshed)d oradores actualizados."
+
+#: views.py:677
+msgid "No speakers found."
+msgstr "No se encontraron oradores."
+
+#: widgets.py:46
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#: widgets.py:47
+msgid "dd/mm/yyyy"
+msgstr "dd/mm/yyyy"
+
+#: widgets.py:48
+msgid "dd/mm/yy"
+msgstr "dd/mm/yy"
+
+#: widgets.py:49
+msgid "mm/dd/yyyy"
+msgstr "mm/dd/yyyy"
+
+#: widgets.py:50
+msgid "mm/dd/yy"
+msgstr "mm/dd/yy"
+
+#: widgets.py:108
+msgid "hh:mm"
+msgstr "hh:mm"

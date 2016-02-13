@@ -1,0 +1,60 @@
+{% extends 'speeches/base_player.html' %}
+{% load url from future %}
+{% load speech_utils %}
+{% load pagination_tags %}
+{% load i18n %}
+
+{% block content %}
+    <h1 {% if query %}class="search-title-with-result"{% endif %}>{% trans 'Search' %} {% if query %}/ <strong>{{ query }}</strong>{% endif %}</h1>
+    <form class="site-search site-search--on-results-page" action="{% url "speeches:haystack_search" %}" method="get" >
+      <div class="search-wrapper">
+          <input type="search" class="site-search__input" placeholder="{% trans 'Search' %}" name="q" value="{{ form.q.value }}"/>
+          <input type="submit" class="icon-search" value="{% trans 'Search' %}"/>
+        {% if form.speaker %}
+          <label>
+              <input type="checkbox" name="p" value="{{ form.p.value }}" checked>
+              {% blocktrans with speaker=form.speaker %}Search only speeches by {{ speaker }}{% endblocktrans %}
+          </label>
+        {% endif %}
+      </div>
+    </form>
+
+    <div class="page-content__row ">
+
+
+
+      <div class="full-page__unit">
+        {% if query %}
+            {% if speaker_results %}
+              <h2>{% trans 'Speakers' %}</h2>
+              <ul class="unstyled-list search-results-speakers">
+                  {% for result in speaker_results %}
+                  <li class="search"><a href="{% url "speeches:speaker-view" result.object.slug %}">
+                      {{ result.highlighted.0|striptags_highlight }}
+                  </a></li>
+                  {% endfor %}
+              </ul>
+            {% endif %}
+            <h2>{% blocktrans %}Mentions of <strong>&ldquo;{{ query }}&rdquo;</strong> in speeches{% endblocktrans %}</h2>
+            <ul class="unstyled-list search-results-list">
+            {% for result in page.object_list %}
+                {% if result.model_name == 'speech' %}
+                    {% include 'speeches/speech.html' with speech=result.object highlight=result.highlighted.0 %}
+                {% elif result.model_name == 'section' %}
+                    {% include 'search/section_item.html' with section=result.object highlight=result.highlighted.0 %}
+                {% endif %}
+            {% empty %}
+                <li>{% trans 'No results found' %}</li>
+            {% endfor %}
+            </ul>
+
+            {% with page_obj=page %} {% paginate %} {% endwith %}
+
+        {% else %}
+            {# Show some example queries to run, maybe query syntax, something else? #}
+        {% endif %}
+        </div>
+
+    </div>
+
+{% endblock %}

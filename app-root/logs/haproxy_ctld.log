@@ -1,0 +1,11 @@
+I, [2016-02-08T14:37:05.703739 #100075]  INFO -- : Starting haproxy_ctld
+I, [2016-02-08T15:23:39.449564 #235582]  INFO -- : Starting haproxy_ctld
+I, [2016-02-08T15:55:35.259503 #235582]  INFO -- : remove-gear - capacity: 0.0% gear_count: 2 sessions: 0 remove_thresh: 31.5%
+I, [2016-02-08T15:55:36.841197 #235582]  INFO -- : remove-gear - exit_code: 1  output: Cannot remove gear because min limit '2' reached.
+I, [2016-02-08T16:02:04.531180 #349665]  INFO -- : Starting haproxy_ctld
+I, [2016-02-08T16:12:09.849114 #349665]  INFO -- : remove-gear - capacity: 0.0% gear_count: 2 sessions: 0 remove_thresh: 31.5%
+I, [2016-02-08T16:12:11.864679 #349665]  INFO -- : remove-gear - exit_code: 1  output: Cannot remove gear because min limit '2' reached.
+I, [2016-02-11T18:44:08.238047 #358117]  INFO -- : Starting haproxy_ctld
+I, [2016-02-11T18:50:01.118706 #374337]  INFO -- : Starting haproxy_ctld
+I, [2016-02-11T19:00:06.345625 #374337]  INFO -- : remove-gear - capacity: 0.0% gear_count: 2 sessions: 0 remove_thresh: 31.5%
+I, [2016-02-11T19:00:09.931884 #374337]  INFO -- : remove-gear - exit_code: 1  output: Cannot remove gear because min limit '2' reached.

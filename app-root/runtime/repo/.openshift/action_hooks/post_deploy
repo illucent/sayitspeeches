@@ -1,0 +1,16 @@
+#!/bin/bash
+# This is a simple post deploy hook executed after your application 
+# is deployed and started.  This script gets executed directly, so 
+# it could be python, php, ruby, etc.
+
+echo "--> ACTION HOOK: post_deploy <--"
+
+echo "Executing 'python $OPENSHIFT_REPO_DIR/manage.py collectstatic --noinput'"
+# python "$OPENSHIFT_REPO_DIR"/manage.py collectstatic -v0 --noinput
+python "$OPENSHIFT_REPO_DIR"/manage.py collectstatic --noinput
+
+echo "Executing 'python $OPENSHIFT_REPO_DIR/manage.py migrate --noinput'"
+python "$OPENSHIFT_REPO_DIR"/manage.py migrate --noinput
+
+echo "Executing 'python $OPENSHIFT_REPO_DIR/manage.py syncdb --noinput'"
+python "$OPENSHIFT_REPO_DIR"/manage.py syncdb --noinput

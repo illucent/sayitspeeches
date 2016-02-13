@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: django-bleach
+Version: 0.3.0
+Summary: Easily use bleach with Django models and templates
+Home-page: https://bitbucket.org/tim_heap/django-bleach
+Author: Tim Heap
+Author-email: tim@timheap.me
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django

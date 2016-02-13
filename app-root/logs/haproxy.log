@@ -1,0 +1,99 @@
+[WARNING] 038/143640 (100058) : config : log format ignored for proxy 'stats' since it has no log address.
+[WARNING] 038/143640 (100058) : config : log format ignored for proxy 'express' since it has no log address.
+[WARNING] 038/143702 (100058) : Stopping proxy stats in 0 ms.
+[WARNING] 038/143702 (100058) : Stopping proxy express in 0 ms.
+[WARNING] 038/143702 (100058) : Proxy stats stopped (FE: 1 conns, BE: 0 conns).
+[WARNING] 038/143702 (100058) : Proxy express stopped (FE: 0 conns, BE: 0 conns).
+[WARNING] 038/143702 (102247) : config : log format ignored for proxy 'stats' since it has no log address.
+[WARNING] 038/143702 (102247) : config : log format ignored for proxy 'express' since it has no log address.
+[WARNING] 038/144515 (102247) : Stopping proxy stats in 0 ms.
+[WARNING] 038/144515 (102247) : Stopping proxy express in 0 ms.
+[WARNING] 038/144515 (102247) : Proxy stats stopped (FE: 1 conns, BE: 0 conns).
+[WARNING] 038/144515 (102247) : Proxy express stopped (FE: 1 conns, BE: 2 conns).
+[WARNING] 038/144515 (132232) : config : log format ignored for proxy 'stats' since it has no log address.
+[WARNING] 038/144515 (132232) : config : log format ignored for proxy 'express' since it has no log address.
+[WARNING] 038/144732 (132232) : Server express/local-gear is DOWN for maintenance.
+[ALERT] 038/144732 (132232) : proxy 'express' has no server available!
+[WARNING] 038/144835 (132232) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 038/152338 (132232) : Server express/local-gear is DOWN for maintenance.
+[ALERT] 038/152338 (132232) : proxy 'express' has no server available!
+[WARNING] 038/152339 (235568) : config : log format ignored for proxy 'stats' since it has no log address.
+[WARNING] 038/152339 (235568) : config : log format ignored for proxy 'express' since it has no log address.
+[WARNING] 038/152340 (235568) : Server express/local-gear is DOWN for maintenance.
+[ALERT] 038/152340 (235568) : proxy 'express' has no server available!
+[WARNING] 038/152403 (235568) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 038/153353 (235568) : Server express/local-gear is DOWN for maintenance.
+[ALERT] 038/153353 (235568) : proxy 'express' has no server available!
+[WARNING] 038/153617 (235568) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 038/155355 (235568) : Stopping proxy stats in 0 ms.
+[WARNING] 038/155355 (235568) : Stopping proxy express in 0 ms.
+[WARNING] 038/155355 (235568) : Proxy stats stopped (FE: 2 conns, BE: 0 conns).
+[WARNING] 038/155355 (235568) : Proxy express stopped (FE: 9 conns, BE: 15 conns).
+[WARNING] 038/155355 (324058) : config : log format ignored for proxy 'stats' since it has no log address.
+[WARNING] 038/155355 (324058) : config : log format ignored for proxy 'express' since it has no log address.
+[WARNING] 038/160203 (324058) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 038/160204 (349621) : config : log format ignored for proxy 'stats' since it has no log address.
+[WARNING] 038/160204 (349621) : config : log format ignored for proxy 'express' since it has no log address.
+[WARNING] 038/160205 (349621) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 038/160225 (349621) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 038/160225 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 038/160228 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 038/180210 (349621) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 038/180357 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[ALERT] 038/180357 (349621) : proxy 'express' has no server available!
+[WARNING] 038/182711 (349621) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 038/182713 (349621) : Server express/local-gear is DOWN, reason: Layer7 wrong status, code: 500, info: "HTTP status check returned code <3C>500<3E>", check duration: 785ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+[ALERT] 038/182713 (349621) : proxy 'express' has no server available!
+[WARNING] 038/182718 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 038/182719 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN, reason: Layer7 wrong status, code: 500, info: "HTTP status check returned code <3C>500<3E>", check duration: 592ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+[ALERT] 038/182719 (349621) : proxy 'express' has no server available!
+[WARNING] 038/182911 (349621) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 038/183041 (349621) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 038/183042 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 038/183054 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 038/190949 (349621) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 038/191156 (349621) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 038/191157 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 038/191219 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 038/191634 (349621) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 038/191738 (349621) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 038/191738 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 038/191746 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 041/183701 (349621) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 041/183836 (349621) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 041/183837 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 041/183856 (349621) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 041/184407 (349621) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 041/184408 (358098) : config : log format ignored for proxy 'stats' since it has no log address.
+[WARNING] 041/184408 (358098) : config : log format ignored for proxy 'express' since it has no log address.
+[WARNING] 041/184409 (358098) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 041/184430 (358098) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 041/184430 (358098) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 041/184433 (358098) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 041/184455 (358098) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 041/184610 (358098) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 041/184610 (358098) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 041/184618 (358098) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 041/185000 (358098) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 041/185000 (374322) : config : log format ignored for proxy 'stats' since it has no log address.
+[WARNING] 041/185000 (374322) : config : log format ignored for proxy 'express' since it has no log address.
+[WARNING] 041/185005 (374322) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 041/185030 (374322) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 041/185030 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 041/185034 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 042/113525 (374322) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 042/113653 (374322) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 042/113653 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 042/113714 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 042/114255 (374322) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 042/114408 (374322) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 042/114408 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 042/114421 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 042/114725 (374322) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 042/114833 (374322) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 042/114833 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 042/114845 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).
+[WARNING] 042/115954 (374322) : Server express/local-gear is DOWN for maintenance.
+[WARNING] 042/120133 (374322) : Server express/local-gear is UP (leaving maintenance).
+[WARNING] 042/120134 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is DOWN for maintenance.
+[WARNING] 042/120147 (374322) : Server express/gear-56b8fff40c1e66181f000039-illucentdev is UP (leaving maintenance).

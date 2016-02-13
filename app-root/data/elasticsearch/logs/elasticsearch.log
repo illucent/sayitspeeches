@@ -1,0 +1,62 @@
+[2016-02-08 16:52:02,930][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: CONFIG_SECCOMP not compiled into kernel, CONFIG_SECCOMP and CONFIG_SECCOMP_FILTER are needed
+[2016-02-08 16:52:04,894][INFO ][node                     ] [Silver Surfer] version[2.2.0], pid[496065], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-08 16:52:04,894][INFO ][node                     ] [Silver Surfer] initializing ...
+[2016-02-08 16:52:08,113][INFO ][plugins                  ] [Silver Surfer] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-08 16:52:08,208][INFO ][env                      ] [Silver Surfer] using [1] data paths, mounts [[/var/lib/openshift (/dev/mapper/EBSStore01-user_home01)]], net usable_space [31.1gb], net total_space [174.9gb], spins? [no], types [xfs]
+[2016-02-08 16:52:08,208][INFO ][env                      ] [Silver Surfer] heap size [998.4mb], compressed ordinary object pointers [unknown]
+[2016-02-08 16:52:14,988][INFO ][node                     ] [Silver Surfer] initialized
+[2016-02-08 16:52:14,989][INFO ][node                     ] [Silver Surfer] starting ...
+[2016-02-08 16:52:15,167][INFO ][transport                ] [Silver Surfer] publish_address {127.4.243.1:3306}, bound_addresses {127.4.243.1:3306}
+[2016-02-08 16:52:15,192][INFO ][discovery                ] [Silver Surfer] elasticsearch/jJRmJg5GSdeKYgP8Rcys8g
+[2016-02-08 16:52:18,257][INFO ][cluster.service          ] [Silver Surfer] new_master {Silver Surfer}{jJRmJg5GSdeKYgP8Rcys8g}{127.4.243.1}{127.4.243.1:3306}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-08 16:52:18,278][ERROR][bootstrap                ] [Silver Surfer] Exception
+BindHttpException[Failed to bind to [8080]]; nested: ChannelException[Failed to bind to: /127.4.243.1:8080]; nested: BindException[Address already in use];
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.bindAddress(NettyHttpServerTransport.java:307)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.doStart(NettyHttpServerTransport.java:258)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.http.HttpServer.doStart(HttpServer.java:92)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.node.Node.start(Node.java:269)
+	at org.elasticsearch.bootstrap.Bootstrap.start(Bootstrap.java:221)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:287)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /127.4.243.1:8080
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport$1.onPortNumber(NettyHttpServerTransport.java:295)
+	at org.elasticsearch.common.transport.PortsRange.iterate(PortsRange.java:58)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.bindAddress(NettyHttpServerTransport.java:290)
+	... 8 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-02-08 16:52:18,283][INFO ][node                     ] [Silver Surfer] stopping ...
+[2016-02-08 16:52:18,330][INFO ][gateway                  ] [Silver Surfer] recovered [0] indices into cluster_state
+[2016-02-08 16:52:18,355][INFO ][node                     ] [Silver Surfer] stopped
+[2016-02-08 16:52:18,356][INFO ][node                     ] [Silver Surfer] closing ...
+[2016-02-08 16:52:18,389][INFO ][node                     ] [Silver Surfer] closed
+[2016-02-08 16:53:59,472][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: CONFIG_SECCOMP not compiled into kernel, CONFIG_SECCOMP and CONFIG_SECCOMP_FILTER are needed
+[2016-02-08 16:54:00,445][INFO ][node                     ] [Kukulcan] version[2.2.0], pid[500744], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-08 16:54:00,445][INFO ][node                     ] [Kukulcan] initializing ...
+[2016-02-08 16:54:02,403][INFO ][plugins                  ] [Kukulcan] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-08 16:54:02,469][INFO ][env                      ] [Kukulcan] using [1] data paths, mounts [[/var/lib/openshift (/dev/mapper/EBSStore01-user_home01)]], net usable_space [31.1gb], net total_space [174.9gb], spins? [no], types [xfs]
+[2016-02-08 16:54:02,469][INFO ][env                      ] [Kukulcan] heap size [998.4mb], compressed ordinary object pointers [unknown]
+[2016-02-08 16:54:08,587][INFO ][node                     ] [Kukulcan] initialized
+[2016-02-08 16:54:08,587][INFO ][node                     ] [Kukulcan] starting ...
+[2016-02-08 16:54:08,686][INFO ][transport                ] [Kukulcan] publish_address {127.4.243.1:3306}, bound_addresses {127.4.243.1:3306}
+[2016-02-08 16:54:08,697][INFO ][discovery                ] [Kukulcan] elasticsearch/8Is06eMFQvSyqq6HeCuMzQ
+[2016-02-08 16:54:11,743][INFO ][cluster.service          ] [Kukulcan] new_master {Kukulcan}{8Is06eMFQvSyqq6HeCuMzQ}{127.4.243.1}{127.4.243.1:3306}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-08 16:54:11,761][INFO ][http                     ] [Kukulcan] publish_address {127.4.243.1:8090}, bound_addresses {127.4.243.1:8090}
+[2016-02-08 16:54:11,762][INFO ][node                     ] [Kukulcan] started
+[2016-02-08 16:54:11,785][INFO ][gateway                  ] [Kukulcan] recovered [0] indices into cluster_state

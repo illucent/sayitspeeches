@@ -1,0 +1,5 @@
+setup.py
+django_1.7_on_Red_Hat_Openshift.egg-info/PKG-INFO
+django_1.7_on_Red_Hat_Openshift.egg-info/SOURCES.txt
+django_1.7_on_Red_Hat_Openshift.egg-info/dependency_links.txt
+django_1.7_on_Red_Hat_Openshift.egg-info/top_level.txt

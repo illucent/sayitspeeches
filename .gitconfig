@@ -1,0 +1,8 @@
+
+[user]
+  name = OpenShift System User
+[gc]
+  auto = 100
+[pack]
+  windowMemory = 10m
+  packSizeLimit = 20m

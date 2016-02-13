@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	logAllRefUpdates = true
+[remote "origin"]
+	url = /var/lib/openshift/56b8edab0c1e66a425000098/git/template
+[pack]
+	windowMemory = 200m

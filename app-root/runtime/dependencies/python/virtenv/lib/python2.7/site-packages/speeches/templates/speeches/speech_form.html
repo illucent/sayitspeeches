@@ -1,0 +1,123 @@
+{% extends 'speeches/base_form_select2.html' %}
+{% load i18n %}
+{% load staticfiles %}
+{% load url from future %}
+
+{% block extra_js %}
+  {{ block.super }}
+  <script type="text/javascript" src="{% static "speeches/js/jQuery-File-Upload/js/vendor/jquery.ui.widget.js" %}" charset="utf-8"></script>
+  <script type="text/javascript" src="{% static "speeches/js/jQuery-File-Upload/js/jquery.iframe-transport.js" %}" charset="utf-8"></script>
+  <script type="text/javascript" src="{% static "speeches/js/jQuery-File-Upload/js/jquery.fileupload.js" %}" charset="utf-8"></script>
+{% endblock %}
+
+{% block title %}
+  {% if object %}
+    {% trans "Edit speech" %}
+  {% else %}
+    {% trans "Add a speech" %}
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+
+{% if added %}
+<div class="alert alert-success">
+    Your speech has been <a href="{% url "speeches:speech-view" added %}">created</a>
+    in the section <a href="{% url "speeches:section-view" section.get_path %}#s{{ added }}">{{ section.title }}</a>!
+</div>
+{% endif %}
+
+<form id="speech-form" class="form-horizontal{% if not object and not form.non_field_errors %} {% endif %}" method="post" enctype="multipart/form-data">
+
+    <input type="hidden" name="public" value="on">
+
+    <div class="page-header">
+      {% block page-header %}
+      {% if object %}
+        <h1>{% trans "Edit speech" %}</h1>
+      {% else %}
+        <h1 class="has-tip">{% trans "Add a speech" %}</h1>
+        <p class="tip">{% trans "You can cut and paste quotes from news sites, social media or blogs,<br>or transcribe any audio or video records you may have access to" %}</p>
+      {% endif %}
+      {% endblock %}
+    </div>
+
+    {% csrf_token %}
+
+  {% if form.non_field_errors %}
+    <div class="error">
+        {{ form.non_field_errors }}
+    </div>
+  {% endif %}
+
+  {% for hidden in form.hidden_fields %}
+      {{ hidden }}
+  {% endfor %}
+
+    <div class="row">
+        <div class="medium-8 column">
+            {% include "speeches/form-item.html" with field=form.text %}
+        </div>
+        <div class="medium-4 column">
+            {% include "speeches/form-item.html" with field=form.speaker %}
+            {% include "speeches/form-item.html" with field=form.section %}
+            {% include "speeches/form-item.html" with field=form.source_url %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-4 column">
+
+            <div class="unimportant-form-section-header">{% trans "Date &amp; Time" %}</div>
+            <div class="unimportant-form-section">
+                  <div class="row">
+                      <div class="small-5 column">
+                          {% include "speeches/form-item.html" with field=form.start_time %}
+                      </div>
+                      <div class="small-7 column">
+                          {% include "speeches/form-item.html" with field=form.start_date %}
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="small-5 column">
+                          {% include "speeches/form-item.html" with field=form.end_time %}
+                      </div>
+                      <div class="small-7 column">
+                          {% include "speeches/form-item.html" with field=form.end_date %}
+                      </div>
+                  </div>
+            </div>
+
+        </div>
+        <div class="medium-4 column">
+
+            <div class="unimportant-form-section-header">{% trans "Event &amp; Location" %}</div>
+            <div class="unimportant-form-section">
+                {% include "speeches/form-item.html" with field=form.location %}
+                {% include "speeches/form-item.html" with field=form.event %}
+            </div>
+
+        </div>
+        <div class="medium-4 column">
+
+            <div class="unimportant-form-section-header">{% trans "Title &amp; Tags" %}</div>
+            <div class="unimportant-form-section">
+                {% include "speeches/form-item.html" with field=form.heading %}
+                {% include "speeches/form-item.html" with field=form.tags %}
+            </div>
+
+        </div>
+    </div>
+
+    <p class="form-actions">
+      {% if object %}
+        <input type="submit" id="speech_submit" class="button right" value="{% trans 'Save changes' %}">
+      {% else %}
+        <input type="submit" id="speech_submit" class="button right" value="{% trans 'Save speech' %}">
+      {% endif %}
+    </p>
+
+</form>
+
+{% endblock %}

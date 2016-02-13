@@ -1,0 +1,1 @@
+set viminfo+=n/var/lib/openshift/56b8edab0c1e66a425000098/app-root/data/.viminfo

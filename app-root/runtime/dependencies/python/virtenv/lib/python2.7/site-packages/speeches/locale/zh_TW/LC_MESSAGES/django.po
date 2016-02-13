@@ -1,0 +1,1220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Chia-liang Kao <clkao@clkao.org>, 2014
+# Hsin-lin Cheng <lancetw@gmail.com>, 2014
+# venev <venev.chao@gmail.com>, 2014
+# venev <venev.chao@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: sayit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-05 12:05+0000\n"
+"PO-Revision-Date: 2014-11-21 14:07+0000\n"
+"Last-Translator: mySociety <transifex@mysociety.org>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/sayit/"
+"language/zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: extra-locales/popolo/behaviors/models.py:51 models.py:233 models.py:629
+msgid "start date"
+msgstr "開始日期"
+
+#: extra-locales/popolo/behaviors/models.py:53
+msgid "The date when the validity of the item starts"
+msgstr ""
+
+#: extra-locales/popolo/behaviors/models.py:56 models.py:635
+msgid "end date"
+msgstr "結束日期"
+
+#: extra-locales/popolo/behaviors/models.py:58
+msgid "The date when the validity of the item ends"
+msgstr ""
+
+#: extra-locales/popolo/behaviors/models.py:70
+msgid "creation time"
+msgstr ""
+
+#: extra-locales/popolo/behaviors/models.py:71
+msgid "last modification time"
+msgstr "上次修改時間"
+
+#: extra-locales/popolo/models.py:22 extra-locales/popolo/models.py:92
+#: extra-locales/popolo/models.py:252
+msgid "name"
+msgstr "名稱"
+
+#: extra-locales/popolo/models.py:22
+msgid "A person's preferred full name"
+msgstr ""
+
+#: extra-locales/popolo/models.py:27
+msgid "family name"
+msgstr "姓"
+
+#: extra-locales/popolo/models.py:27
+msgid "One or more family names"
+msgstr ""
+
+#: extra-locales/popolo/models.py:28
+msgid "given name"
+msgstr "名"
+
+#: extra-locales/popolo/models.py:28
+msgid "One or more primary given names"
+msgstr ""
+
+#: extra-locales/popolo/models.py:29
+msgid "additional name"
+msgstr ""
+
+#: extra-locales/popolo/models.py:29
+msgid "One or more secondary given names"
+msgstr ""
+
+#: extra-locales/popolo/models.py:30
+msgid "honorific prefix"
+msgstr ""
+
+#: extra-locales/popolo/models.py:30
+msgid "One or more honorifics preceding a person's name"
+msgstr ""
+
+#: extra-locales/popolo/models.py:31
+msgid "honorific suffix"
+msgstr ""
+
+#: extra-locales/popolo/models.py:31
+msgid "One or more honorifics following a person's name"
+msgstr ""
+
+#: extra-locales/popolo/models.py:32
+msgid "patronymic name"
+msgstr ""
+
+#: extra-locales/popolo/models.py:32
+msgid "One or more patronymic names"
+msgstr ""
+
+#: extra-locales/popolo/models.py:33
+msgid "sort name"
+msgstr ""
+
+#: extra-locales/popolo/models.py:33
+msgid "A name to use in an lexicographically ordered list"
+msgstr ""
+
+#: extra-locales/popolo/models.py:34
+msgid "email"
+msgstr "電子郵件"
+
+#: extra-locales/popolo/models.py:34
+msgid "A preferred email address"
+msgstr ""
+
+#: extra-locales/popolo/models.py:35
+msgid "gender"
+msgstr "性別"
+
+#: extra-locales/popolo/models.py:35
+msgid "A gender"
+msgstr ""
+
+#: extra-locales/popolo/models.py:36
+msgid "birth date"
+msgstr "生日"
+
+#: extra-locales/popolo/models.py:36
+msgid "A date of birth"
+msgstr "出生日期"
+
+#: extra-locales/popolo/models.py:37
+msgid "death date"
+msgstr "卒日"
+
+#: extra-locales/popolo/models.py:37
+msgid "A date of death"
+msgstr "去世日期"
+
+#: extra-locales/popolo/models.py:38
+msgid "summary"
+msgstr "總結"
+
+#: extra-locales/popolo/models.py:38
+msgid "A one-line account of a person's life"
+msgstr ""
+
+#: extra-locales/popolo/models.py:39
+msgid "biography"
+msgstr ""
+
+#: extra-locales/popolo/models.py:39
+msgid "An extended account of a person's life"
+msgstr ""
+
+#: extra-locales/popolo/models.py:40
+msgid "image"
+msgstr "圖片"
+
+#: extra-locales/popolo/models.py:40
+msgid "A URL of a head shot"
+msgstr ""
+
+#: extra-locales/popolo/models.py:92
+msgid "A primary name, e.g. a legally recognized name"
+msgstr ""
+
+#: extra-locales/popolo/models.py:97
+msgid "classification"
+msgstr ""
+
+#: extra-locales/popolo/models.py:97
+msgid "An organization category, e.g. committee"
+msgstr ""
+
+#: extra-locales/popolo/models.py:100
+msgid "The organization that contains this organization"
+msgstr ""
+
+#: extra-locales/popolo/models.py:102
+msgid "dissolution date"
+msgstr ""
+
+#: extra-locales/popolo/models.py:108
+msgid "A date of dissolution"
+msgstr ""
+
+#: extra-locales/popolo/models.py:109
+msgid "founding date"
+msgstr ""
+
+#: extra-locales/popolo/models.py:115
+msgid "A date of founding"
+msgstr ""
+
+#: extra-locales/popolo/models.py:153 extra-locales/popolo/models.py:184
+#: extra-locales/popolo/models.py:232
+msgid "label"
+msgstr "標籤"
+
+#: extra-locales/popolo/models.py:153
+msgid "A label describing the post"
+msgstr ""
+
+#: extra-locales/popolo/models.py:154 extra-locales/popolo/models.py:185
+msgid "role"
+msgstr "角色"
+
+#: extra-locales/popolo/models.py:154
+msgid "The function that the holder of the post fulfills"
+msgstr ""
+
+#: extra-locales/popolo/models.py:158
+msgid "The organization in which the post is held"
+msgstr ""
+
+#: extra-locales/popolo/models.py:184
+msgid "A label describing the membership"
+msgstr ""
+
+#: extra-locales/popolo/models.py:185
+msgid "The role that the person fulfills in the organization"
+msgstr ""
+
+#: extra-locales/popolo/models.py:189
+msgid "The person who is a party to the relationship"
+msgstr ""
+
+#: extra-locales/popolo/models.py:193
+msgid "The organization that is a party to the relationship"
+msgstr ""
+
+#: extra-locales/popolo/models.py:196
+msgid ""
+"The organization on whose behalf the person is a party to the relationship"
+msgstr ""
+
+#: extra-locales/popolo/models.py:200
+msgid "The post held by the person in the organization through this membership"
+msgstr ""
+
+#: extra-locales/popolo/models.py:223
+msgid "Fax"
+msgstr "傳真"
+
+#: extra-locales/popolo/models.py:224
+msgid "Telephone"
+msgstr "電話"
+
+#: extra-locales/popolo/models.py:225
+msgid "Mobile"
+msgstr "行動電話"
+
+#: extra-locales/popolo/models.py:226
+msgid "Email"
+msgstr "電子郵件"
+
+#: extra-locales/popolo/models.py:227
+msgid "Snail mail"
+msgstr ""
+
+#: extra-locales/popolo/models.py:228
+msgid "Twitter"
+msgstr "Twitter"
+
+#: extra-locales/popolo/models.py:229
+msgid "Facebook"
+msgstr "Facebook"
+
+#: extra-locales/popolo/models.py:232
+msgid "A human-readable label for the contact detail"
+msgstr ""
+
+#: extra-locales/popolo/models.py:233 models.py:615
+msgid "type"
+msgstr "類型"
+
+#: extra-locales/popolo/models.py:233
+msgid "A type of medium, e.g. 'fax' or 'email'"
+msgstr ""
+
+#: extra-locales/popolo/models.py:234
+msgid "value"
+msgstr "值"
+
+#: extra-locales/popolo/models.py:234
+msgid "A value, e.g. a phone number or email address"
+msgstr "值，如電話或電郵位置"
+
+#: extra-locales/popolo/models.py:235 extra-locales/popolo/models.py:253
+#: extra-locales/popolo/models.py:280 extra-locales/popolo/models.py:292
+msgid "note"
+msgstr "附註"
+
+#: extra-locales/popolo/models.py:235
+msgid "A note, e.g. for grouping contact details by physical location"
+msgstr "附註，如「已實際位置分組聯絡資訊」"
+
+#: extra-locales/popolo/models.py:252
+msgid "An alternate or former name"
+msgstr "另外一個之前的名字"
+
+#: extra-locales/popolo/models.py:253
+msgid "A note, e.g. 'Birth name'"
+msgstr "註記，如「出生時的名字」"
+
+#: extra-locales/popolo/models.py:267
+msgid "identifier"
+msgstr "識別編號"
+
+#: extra-locales/popolo/models.py:267
+msgid "An issued identifier, e.g. a DUNS number"
+msgstr ""
+
+#: extra-locales/popolo/models.py:268
+msgid "scheme"
+msgstr "架構"
+
+#: extra-locales/popolo/models.py:268
+msgid "An identifier scheme, e.g. DUNS"
+msgstr "識別編號架構，如 DUNS"
+
+#: extra-locales/popolo/models.py:279 extra-locales/popolo/models.py:291
+msgid "url"
+msgstr "url"
+
+#: extra-locales/popolo/models.py:279 extra-locales/popolo/models.py:291
+msgid "A URL"
+msgstr "網址"
+
+#: extra-locales/popolo/models.py:280
+msgid "A note, e.g. 'Wikipedia page'"
+msgstr "註記，如「維基百科頁面」"
+
+#: extra-locales/popolo/models.py:292
+msgid "A note, e.g. 'Parliament website'"
+msgstr "註記，如「國會網站」"
+
+#: forms.py:76
+msgid "Assign to section"
+msgstr "指派至小節"
+
+#: forms.py:202
+msgid "You must select an existing speaker"
+msgstr ""
+
+#: forms.py:295
+msgid "Choose tags"
+msgstr "選擇標籤"
+
+#: forms.py:314
+msgid "You must provide either text or some audio"
+msgstr "必須提供全文或語音"
+
+#: forms.py:332
+msgid "If you provide a start time you must give a start date too"
+msgstr "若提供開始時間，亦須指定開始日期"
+
+#: forms.py:339
+msgid "If you provide an end time you must give an end date too"
+msgstr "若提供結束時間，亦須指定結束日期"
+
+#: forms.py:478
+msgid "Something cannot be its own parent"
+msgstr "一個東西無法是自己的上層"
+
+#: forms.py:482
+msgid "Something cannot have a parent that is also a descendant"
+msgstr "一個東西無法同時有既是上層又是下層的關係"
+
+#: forms.py:497
+msgid "New speaker"
+msgstr ""
+
+#: forms.py:505
+#, python-format
+msgid "This speaker has %(count)d speech. What would you like to do with it?"
+msgid_plural ""
+"This speaker has %(count)d speeches. What would you like to do with them?"
+msgstr[0] ""
+
+#: forms.py:511
+msgid "Assign it to another speaker"
+msgid_plural "Assign them to another speaker"
+msgstr[0] ""
+
+#: forms.py:513
+msgid "Make it into narrative (i.e. remove the speaker)"
+msgid_plural "Make them into narrative (i.e. remove the speaker)"
+msgstr[0] ""
+
+#: forms.py:515
+msgid "Delete it"
+msgid_plural "Delete them"
+msgstr[0] ""
+
+#: forms.py:531
+msgid "You can't assign speeches to the speaker you're deleting"
+msgstr ""
+
+#: forms.py:537
+msgid "You must choose a new speaker if reassigning speeches"
+msgstr ""
+
+#: forms.py:543
+msgid "You must not choose a new speaker unless reassigning speeches"
+msgstr ""
+
+#: forms.py:592
+msgid "Start time is before recording start time!"
+msgstr "開始時間在錄音開始時間之前！"
+
+#: forms.py:602
+msgid "Difference between timestamps is too long for the uploaded audio"
+msgstr ""
+
+#: forms.py:610
+msgid "Timestamps must be distinct"
+msgstr "時間戳記必須是唯一的"
+
+#: forms.py:625
+msgid "Location of Popolo JSON data"
+msgstr ""
+
+#: importers/import_popolo.py:135
+msgid "Either a file path or a URL is needed."
+msgstr ""
+
+#: importers/import_popolo.py:138
+#, python-format
+msgid "Failed to decode JSON at %(source)s"
+msgstr ""
+
+#: importers/import_popolo.py:164
+msgid "The json must contain either an object or an array"
+msgstr ""
+
+#: management/commands/sayit_search_make_index_live.py:9
+msgid "Update the default alias to point at search index write alias is using"
+msgstr ""
+
+#: management/commands/sayit_search_new_index.py:11
+msgid "Create a new dated search index for reindexing with no downtime"
+msgstr ""
+
+#: models.py:111 models.py:246
+msgid "slug"
+msgstr "短址"
+
+#: models.py:118
+msgid "image_cache"
+msgstr ""
+
+#: models.py:122
+msgid "If image is set, a local copy will be stored here."
+msgstr ""
+
+#: models.py:128 models.py:609
+msgid "speaker"
+msgstr "講者"
+
+#: models.py:129
+msgid "speakers"
+msgstr ""
+
+#: models.py:195
+msgid "tag"
+msgstr ""
+
+#: models.py:196 models.py:641
+msgid "tags"
+msgstr "標籤"
+
+#: models.py:224 models.py:590
+msgid "number"
+msgstr ""
+
+#: models.py:224
+msgid "The number of the section"
+msgstr "小節編號"
+
+#: models.py:226 models.py:593
+msgid "heading"
+msgstr "標頭"
+
+#: models.py:226
+msgid "The heading of the section"
+msgstr "小節標頭"
+
+#: models.py:228 models.py:596
+msgid "subheading"
+msgstr "次標頭"
+
+#: models.py:229
+msgid "The subheading of the section"
+msgstr "小節次標頭"
+
+#: models.py:231
+msgid "description"
+msgstr "描述"
+
+#: models.py:231
+msgid "Longer description, HTML"
+msgstr "長說明（HTML）"
+
+#: models.py:234
+msgid "What date did the section start?"
+msgstr "小節開始日"
+
+#: models.py:236 models.py:632
+msgid "start time"
+msgstr "開始時間"
+
+#: models.py:237
+msgid "What time did the section start?"
+msgstr "小節開始日"
+
+#: models.py:238
+msgid "document number"
+msgstr "文件編號"
+
+#: models.py:239
+msgid "legislature"
+msgstr ""
+
+#: models.py:241
+msgid "session"
+msgstr ""
+
+#: models.py:241
+msgid "Legislative session"
+msgstr "立法會期"
+
+#: models.py:243
+msgid "parent"
+msgstr "上層"
+
+#: models.py:247 models.py:650
+msgid "source URL"
+msgstr "來源網址"
+
+#: models.py:252
+msgid "section"
+msgstr ""
+
+#: models.py:253
+msgid "sections"
+msgstr ""
+
+#: models.py:258 models.py:586
+msgid "Section"
+msgstr "小節"
+
+#: models.py:268
+msgid "You must specify at least one of num/heading/subheading"
+msgstr ""
+
+#: models.py:579
+msgid "audio"
+msgstr "聲音"
+
+#: models.py:581
+msgid "text"
+msgstr "文字"
+
+#: models.py:582
+msgid "The text of the speech"
+msgstr "談話全文"
+
+#: models.py:591
+msgid "The number of the speech, if relevant"
+msgstr "談話編號（如果有）"
+
+#: models.py:594
+msgid "The heading of the speech, if relevant"
+msgstr "談話標題（如果有）"
+
+#: models.py:597
+msgid "The subheading of the speech, if relevant"
+msgstr "談話次標題（如果有）"
+
+#: models.py:601
+msgid "event"
+msgstr "活動"
+
+#: models.py:602
+msgid "Was the speech at a particular event?"
+msgstr "此談話是在某個活動嗎？"
+
+#: models.py:604
+msgid "location"
+msgstr "地點"
+
+#: models.py:605
+msgid "Where the speech took place"
+msgstr "談話在哪裡發生？"
+
+#: models.py:610
+msgid "Who gave this speech?"
+msgstr "誰說的？"
+
+#: models.py:617
+msgid "Speech"
+msgstr "談話"
+
+#: models.py:618
+msgid "Question"
+msgstr "問題"
+
+#: models.py:619
+msgid "Answer"
+msgstr "答案"
+
+#: models.py:620
+msgid "Scene"
+msgstr "場景"
+
+#: models.py:621
+msgid "Narrative"
+msgstr ""
+
+#: models.py:622
+msgid "Summary"
+msgstr "總結"
+
+#: models.py:623
+msgid "Other"
+msgstr "其它"
+
+#: models.py:625
+msgid "What sort of speech is this?"
+msgstr "這是哪種談話？"
+
+#: models.py:630
+msgid "What date did the speech start?"
+msgstr "談話開始日？"
+
+#: models.py:633
+msgid "What time did the speech start?"
+msgstr "談話開始時間？"
+
+#: models.py:636
+msgid "What date did the speech end?"
+msgstr "談話結束日？"
+
+#: models.py:638
+msgid "end time"
+msgstr "結束時間"
+
+#: models.py:639
+msgid "What time did the speech end?"
+msgstr "談話結束時間？"
+
+#: models.py:644
+msgid "public"
+msgstr "公開"
+
+#: models.py:644
+msgid "Is this speech public?"
+msgstr "這是公開談話嗎？"
+
+#: models.py:655
+msgid "celery task ID"
+msgstr ""
+
+#: models.py:658
+msgid "speech"
+msgstr ""
+
+#: models.py:659
+msgid "speeches"
+msgstr ""
+
+#: templates/pagination/pagination.html:5
+#: templates/pagination/pagination.html:7
+msgid "Previous"
+msgstr "上一頁"
+
+#: templates/pagination/pagination.html:21
+#: templates/pagination/pagination.html:23
+msgid "Next"
+msgstr "下一頁"
+
+#: templates/search/search.html:8 templates/search/search.html.py:11
+#: templates/search/search.html:12 templates/speeches/_home.html:29
+#: templates/speeches/_home.html.py:30
+#: templates/speeches/speaker_detail.html:111
+msgid "Search"
+msgstr "搜尋"
+
+#: templates/search/search.html:16
+#, python-format
+msgid "Search only speeches by %(speaker)s"
+msgstr ""
+
+#: templates/search/search.html:29 templates/speeches/base.html:49
+msgid "Speakers"
+msgstr "講者"
+
+#: templates/search/search.html:38
+#, python-format
+msgid "Mentions of <strong>&ldquo;%(query)s&rdquo;</strong> in speeches"
+msgstr ""
+
+#: templates/search/search.html:47
+msgid "No results found"
+msgstr ""
+
+#: templates/speeches/_home.html:14 templates/speeches/parentless_list.html:20
+msgid "Add a new speech"
+msgstr "新增一段談話"
+
+#: templates/speeches/_home.html:15 templates/speeches/parentless_list.html:21
+#: templates/speeches/section_form.html:9
+#: templates/speeches/section_form.html:19
+msgid "Add a section"
+msgstr "增加小節"
+
+#: templates/speeches/_home.html:16
+#: templates/speeches/popolo_import_form.html:6
+#: templates/speeches/popolo_import_form.html:12
+#: templates/speeches/speaker_list.html:15
+#, fuzzy
+#| msgid "Update speaker"
+msgid "Import speakers"
+msgstr "更新講者"
+
+#: templates/speeches/_home.html:26
+msgid "Search speeches and statements"
+msgstr "搜尋談話與發言"
+
+#: templates/speeches/_home.html:55
+#, python-format
+msgid "<a href=\"%(url_parentless_list)s\"><strong>1</strong></a> speech"
+msgid_plural ""
+"<a href=\"%(url_parentless_list)s\"><strong>%(n)s</strong></a> speeches"
+msgstr[0] ""
+
+#: templates/speeches/_home.html:60
+#, python-format
+msgid "<a href=\"%(url_speaker_list)s\"><strong>1</strong></a> speaker"
+msgid_plural ""
+"<a href=\"%(url_speaker_list)s\"><strong>%(n)s</strong></a> speakers"
+msgstr[0] ""
+
+#: templates/speeches/_home.html:65
+#, python-format
+msgid "<a href=\"%(url_parentless_list)s\"><strong>1</strong></a> section"
+msgid_plural ""
+"<a href=\"%(url_parentless_list)s\"><strong>%(n)s</strong></a> sections"
+msgstr[0] ""
+
+#: templates/speeches/_home.html:81
+msgid "Brilliant!"
+msgstr "太棒了！"
+
+#: templates/speeches/_home.html:82
+msgid ""
+"Now you&rsquo;ve got your own public database for speeches and statements."
+msgstr ""
+
+#: templates/speeches/_home.html:83
+msgid ""
+"However, it&rsquo;s totally empty. Let&rsquo;s get started by adding "
+"something."
+msgstr "不過現在它空空如也，開始來新增點東西吧！"
+
+#: templates/speeches/_home.html:84 templates/speeches/parentless_list.html:59
+#: templates/speeches/speaker_list.html:47
+msgid "Add your first statement"
+msgstr ""
+
+#: templates/speeches/_home.html:86 templates/speeches/parentless_list.html:61
+#: templates/speeches/speaker_list.html:52
+msgid "This is a brand new SayIt site."
+msgstr "這是個全新的 SayIt 網站"
+
+#: templates/speeches/_home.html:87 templates/speeches/parentless_list.html:62
+#: templates/speeches/speaker_list.html:53
+msgid ""
+"Its creator hasn&rsquo;t yet added any speeches or statements for you to see."
+msgstr ""
+
+#: templates/speeches/_home.html:88 templates/speeches/parentless_list.html:63
+#: templates/speeches/speaker_list.html:54
+msgid "Learn more about SayIt"
+msgstr ""
+
+#: templates/speeches/base.html:48
+msgid "Home"
+msgstr "首頁"
+
+#: templates/speeches/base.html:50 templates/speeches/parentless_list.html:7
+#: templates/speeches/parentless_list.html:23
+#: templates/speeches/speaker_detail.html:97
+msgid "Speeches"
+msgstr "談話"
+
+#: templates/speeches/parentless_list.html:39
+msgid "Speeches not in a section"
+msgstr "不在小節中的談話"
+
+#: templates/speeches/parentless_list.html:57
+#: templates/speeches/speaker_list.html:44
+msgid "You haven&rsquo;t added any speeches or statements yet"
+msgstr ""
+
+#: templates/speeches/parentless_list.html:58
+msgid ""
+"Once you have, you&rsquo;ll be able to browse speeches and organise them "
+"into sections here."
+msgstr ""
+
+#: templates/speeches/popolo_import_form.html:15
+msgid ""
+"\n"
+"    <p>Speakers can be imported into SayIt if they are available in <a "
+"href='http://www.popoloproject.com/'>Popolo JSON</a> format.<p>\n"
+"    <p>Enter the location of the speaker data as either\n"
+"      <ul>\n"
+"        <li>\n"
+"          A URL, or path to a local file, containing Popolo JSON in the "
+"format\n"
+"          <pre>\n"
+"{\n"
+"    'persons': [&lt;a list of persons&gt;],\n"
+"    'organizations': [],\n"
+"    'posts': [],\n"
+"    ...\n"
+"}\n"
+"          </pre>\n"
+"        <li>\n"
+"          A URL, or path to a local file, containing Popolo JSON in the "
+"format\n"
+"          <pre>\n"
+"[&lt;a list of persons&gt;]\n"
+"          </pre>\n"
+"        </li>\n"
+"        <li>\n"
+"          A PopIt API base url, such as\n"
+"          <a href=\"https://kenyan-politicians.popit.mysociety.org/api/v0.1/"
+"\">https://kenyan-politicians.popit.mysociety.org/api/v0.1/</a>\n"
+"        </li>\n"
+"      </ul>\n"
+"    </p>\n"
+"  "
+msgstr ""
+
+#: templates/speeches/popolo_import_form.html:44
+msgid "Import People (may take some time)"
+msgstr ""
+
+#: templates/speeches/recording_detail.html:6
+#: templates/speeches/recording_detail.html:11
+#: templates/speeches/recording_form.html:6
+#: templates/speeches/recording_form.html:11
+#, python-format
+msgid "Recording #%(id)s"
+msgstr ""
+
+#: templates/speeches/recording_detail.html:16
+#: templates/speeches/recording_form.html:15 templates/speeches/speech.html:84
+msgid "This speech has audio"
+msgstr "這個談話有語音檔"
+
+#: templates/speeches/recording_detail.html:42
+#: templates/speeches/recording_form.html:19
+msgid "Actions"
+msgstr "動作"
+
+#: templates/speeches/recording_detail.html:48
+#: templates/speeches/recording_form.html:40
+msgid "Update"
+msgstr "更新"
+
+#: templates/speeches/section_confirm_delete.html:5
+msgid "Delete section"
+msgstr "刪除小節"
+
+#: templates/speeches/section_confirm_delete.html:11
+#: templates/speeches/speech_confirm_delete.html:11
+msgid "Confirm delete?"
+msgstr "確認刪除？"
+
+#: templates/speeches/section_detail.html:23
+#: templates/speeches/speaker_detail.html:102
+msgid "Add speech"
+msgstr "新增談話"
+
+#: templates/speeches/section_detail.html:24
+msgid "Add subsection"
+msgstr "增加子小節"
+
+#: templates/speeches/section_detail.html:25
+#: templates/speeches/section_form.html:7
+#: templates/speeches/section_form.html:17
+msgid "Edit section"
+msgstr "編輯小節"
+
+#: templates/speeches/section_detail.html:33
+#: templates/speeches/speech_detail.html:145
+msgid "Source"
+msgstr "來源"
+
+#: templates/speeches/section_detail.html:94
+#: templates/speeches/speech_detail.html:168
+msgid "Keyboard shortcuts"
+msgstr "快捷鍵"
+
+#: templates/speeches/section_detail.html:95
+msgid "previous section"
+msgstr "上一節"
+
+#: templates/speeches/section_detail.html:96
+msgid "next section"
+msgstr "下一節"
+
+#: templates/speeches/section_detail.html:110
+msgid "This section is empty"
+msgstr "小節無內容"
+
+#: templates/speeches/section_detail.html:111
+msgid "Add a new speech here"
+msgstr "在此新增談話"
+
+#: templates/speeches/section_form.html:25
+msgid "Update section"
+msgstr "更新小節"
+
+#: templates/speeches/section_form.html:27
+msgid "Add section"
+msgstr "增加小節"
+
+#: templates/speeches/speaker_delete.html:7
+#: templates/speeches/speaker_delete.html:16
+#, python-format
+msgid "Delete speaker: %(name)s"
+msgstr ""
+
+#: templates/speeches/speaker_delete.html:23
+#: templates/speeches/speaker_detail.html:26
+msgid "Delete speaker"
+msgstr ""
+
+#: templates/speeches/speaker_detail.html:15
+#, python-format
+msgid "Speeches by %(speaker)s"
+msgstr ""
+
+#: templates/speeches/speaker_detail.html:25
+#: templates/speeches/speaker_form.html:6
+#: templates/speeches/speaker_form.html:16
+msgid "Edit speaker"
+msgstr "編輯講者"
+
+#: templates/speeches/speaker_detail.html:49
+msgid "Appearance"
+msgid_plural "Appearances"
+msgstr[0] "外觀"
+
+#: templates/speeches/speaker_detail.html:58
+msgctxt "speaker count"
+msgid "Speech"
+msgid_plural "Speeches"
+msgstr[0] ""
+
+#: templates/speeches/speaker_detail.html:85
+msgid "Longest speech"
+msgstr "最長的談話"
+
+#: templates/speeches/speaker_detail.html:110
+msgid "Search this person's speeches"
+msgstr "搜尋此人的談話"
+
+#: templates/speeches/speaker_detail.html:120
+#, python-format
+msgid "%(speaker)s has no recorded speeches yet."
+msgstr ""
+
+#: templates/speeches/speaker_form.html:8
+#: templates/speeches/speaker_form.html:18
+msgid "Add a speaker"
+msgstr "新增講者"
+
+#: templates/speeches/speaker_form.html:24
+msgid "Update speaker"
+msgstr "更新講者"
+
+#: templates/speeches/speaker_form.html:26
+msgid "Add speaker"
+msgstr "新增講者"
+
+#: templates/speeches/speaker_list.html:7
+#: templates/speeches/speaker_list.html:18
+msgid "All Speakers"
+msgstr "所有的講者"
+
+#: templates/speeches/speaker_list.html:14
+msgid "Add a new speaker"
+msgstr ""
+
+#: templates/speeches/speaker_list.html:45
+msgid ""
+"Once you have, this page will contain a list of all the different people who "
+"made each statement in this SayIt site."
+msgstr ""
+
+#: templates/speeches/speaker_list.html:48
+#, fuzzy
+#| msgid "Add a speaker"
+msgid "Add your first speaker"
+msgstr "新增講者"
+
+#: templates/speeches/speech.html:23
+msgid "Invisible"
+msgstr "隱藏"
+
+#: templates/speeches/speech.html:94 templates/speeches/speech.html.py:110
+#: templates/speeches/speech.html:135
+msgid "Link in context"
+msgstr ""
+
+#: templates/speeches/speech.html:96 templates/speeches/speech.html.py:112
+#: templates/speeches/speech.html:137
+msgid "Link"
+msgstr "連結"
+
+#: templates/speeches/speech.html:106
+msgid "[ recorded audio ]"
+msgstr ""
+
+#: templates/speeches/speech.html:131
+#: templates/speeches/speech_detail.html:148
+msgid "Edit"
+msgstr "編輯"
+
+#: templates/speeches/speech.html:132
+#: templates/speeches/speech_detail.html:149
+msgid "Delete"
+msgstr "刪除"
+
+#: templates/speeches/speech_confirm_delete.html:5
+msgid "Delete speech"
+msgstr "刪除談話"
+
+#: templates/speeches/speech_detail.html:31
+msgid ""
+"Please wait, audio is being transcribed. This page will automatically "
+"refresh in 5 seconds..."
+msgstr ""
+
+#: templates/speeches/speech_detail.html:39
+msgid "Your speech has been saved!"
+msgstr "談話已儲存"
+
+#: templates/speeches/speech_detail.html:41
+msgid "Add another speech like this"
+msgstr "新增一個類似的談話"
+
+#: templates/speeches/speech_detail.html:42
+msgid "Show speech in context"
+msgstr "在前後文中顯示談話"
+
+#: templates/speeches/speech_detail.html:44
+msgid "Add another speech"
+msgstr "增加另一個談話"
+
+#: templates/speeches/speech_detail.html:62
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> by <span "
+"class=\"speech__meta-data__speaker-name\"> <a href=\"%(speaker_url)s\">"
+"%(speaker)s</a> </span> on <span class=\"speech__meta-data__date\">%(date)s</"
+"span>"
+msgstr ""
+
+#: templates/speeches/speech_detail.html:72
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> by <span "
+"class=\"speech__meta-data__speaker-name\"> <a href=\"%(speaker_url)s\">"
+"%(speaker)s</a> </span>"
+msgstr ""
+
+#: templates/speeches/speech_detail.html:82
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> by <span "
+"class=\"speech__meta-data__speaker-name\">an unknown speaker</span> on <span "
+"class=\"speech__meta-data__date\">%(date)s</span>"
+msgstr ""
+
+#: templates/speeches/speech_detail.html:90
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> by <span "
+"class=\"speech__meta-data__speaker-name\">an unknown speaker</span>"
+msgstr ""
+
+#: templates/speeches/speech_detail.html:99
+#, python-format
+msgid ""
+"<span class=\"speech__meta-data__speech-type\">%(type)s</span> on <span "
+"class=\"speech__meta-data__date\">%(date)s</span>"
+msgstr ""
+
+#: templates/speeches/speech_detail.html:105
+#, python-format
+msgid "<span class=\"speech__meta-data__speech-type\">%(type)s</span>"
+msgstr ""
+
+#: templates/speeches/speech_detail.html:142
+msgid "Show context"
+msgstr "顯示內容"
+
+#: templates/speeches/speech_detail.html:169
+msgid "previous speech"
+msgstr "前一談話"
+
+#: templates/speeches/speech_detail.html:170
+msgid "next speech"
+msgstr "下一談話"
+
+#: templates/speeches/speech_form.html:15
+#: templates/speeches/speech_form.html:37
+msgid "Edit speech"
+msgstr "編輯談話"
+
+#: templates/speeches/speech_form.html:17
+#: templates/speeches/speech_form.html:39
+msgid "Add a speech"
+msgstr "新增談話"
+
+#: templates/speeches/speech_form.html:40
+msgid ""
+"You can cut and paste quotes from news sites, social media or blogs,<br>or "
+"transcribe any audio or video records you may have access to"
+msgstr ""
+"你可以從新聞網站、社群媒體或部落格剪貼要引述的文字，\n"
+"或為任何連得上的錄音或影片檔打逐字稿"
+
+#: templates/speeches/speech_form.html:71
+msgid "Date &amp; Time"
+msgstr "日期＆時間"
+
+#: templates/speeches/speech_form.html:95
+msgid "Event &amp; Location"
+msgstr "活動＆地點"
+
+#: templates/speeches/speech_form.html:104
+msgid "Title &amp; Tags"
+msgstr "標題語標籤"
+
+#: templates/speeches/speech_form.html:115
+msgid "Save changes"
+msgstr "儲存變更"
+
+#: templates/speeches/speech_form.html:117
+msgid "Save speech"
+msgstr "儲存談話"
+
+#: views.py:291
+#, python-format
+msgid "View Speaker: %(speaker_name)s"
+msgstr ""
+
+#: views.py:452
+#, python-format
+msgid "View Section: %(section_title)s"
+msgstr "檢視小節：%(section_title)s"
+
+#: views.py:508
+msgid "Speeches assigned."
+msgstr "談話已指定。"
+
+#: views.py:661
+#, python-format
+msgid "%(created)d speaker created."
+msgid_plural "%(created)d speakers created."
+msgstr[0] ""
+
+#: views.py:666
+#, python-format
+msgid "%(refreshed)d speaker refreshed."
+msgid_plural "%(refreshed)d speakers refreshed."
+msgstr[0] ""
+
+#: views.py:677
+msgid "No speakers found."
+msgstr ""
+
+#: widgets.py:46
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: widgets.py:47
+msgid "dd/mm/yyyy"
+msgstr ""
+
+#: widgets.py:48
+msgid "dd/mm/yy"
+msgstr ""
+
+#: widgets.py:49
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: widgets.py:50
+msgid "mm/dd/yy"
+msgstr ""
+
+#: widgets.py:108
+msgid "hh:mm"
+msgstr ""

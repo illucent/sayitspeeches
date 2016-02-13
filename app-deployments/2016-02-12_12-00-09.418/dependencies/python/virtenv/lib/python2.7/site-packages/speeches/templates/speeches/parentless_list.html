@@ -1,0 +1,67 @@
+{% extends 'speeches/base_player.html' %}
+{% load staticfiles %}
+{% load pagination_tags %}
+{% load url from future %}
+{% load i18n %}
+
+{% block title %}{% trans "Speeches" %}{% endblock %}
+
+{% block extra_js %}
+{{ block.super }}
+<script src="{% static 'speeches/js/masonry.pkgd.min.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+
+  {% if section_list or speech_list or request.is_user_instance %}
+    <div class="page-header">
+      {% if request.is_user_instance %}
+        <a href="{% url "speeches:speech-add" %}" class="button small right">{% trans "Add a new speech" %}</a>
+        <a href="{% url "speeches:section-add" %}" class="button secondary small right">{% trans "Add a section" %}</a>
+      {% endif %}
+        <h1>{% trans "Speeches" %}</h1>
+    </div>
+  {% endif %}
+
+  {% if section_list or speech_list %}
+
+      {% if section_list %}
+        <ul class="unstyled">
+            {% for top in section_list %}
+            <li>
+                <span class="section-title"><a href="{% url "speeches:section-view" top.get_path %}">{{ top.title }}</a></span>
+            </li>
+            {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if speech_list %}
+        <div class="section-page__speeches-collection">
+          {% if section_list %}
+            <h2>{% trans 'Speeches not in a section' %}</h2>
+          {% endif %}
+            <ul class="unstyled js-masonry" data-masonry-options='{"columnWidth":".speech","itemSelector":".speech","gutter":".gutter-sizer"}'>
+                <li class="gutter-sizer"></li>
+              {% for speech in speech_list %}
+                {% include "speeches/speech.html" with speech=speech nosection="1" standalone="1" truncate="1" %}
+              {% endfor %}
+            </ul>
+
+            {% paginate %}
+
+        </div>
+      {% endif %}
+
+  {% else %}
+
+    <div class="nothing-here-yet-message">
+      {% block nothing-here-yet %}
+        <h1>{% trans 'You haven&rsquo;t added any speeches or statements yet' %}</h1>
+        <p class="lead">{% trans 'Once you have, you&rsquo;ll be able to browse speeches and organise them into sections here.' %}</p>
+        <p><a href="{% url "speeches:speech-add" %}" class="button">{% trans 'Add your first statement' %}</a></p>
+      {% endblock %}
+    </div>
+
+  {% endif %}
+
+{% endblock %}

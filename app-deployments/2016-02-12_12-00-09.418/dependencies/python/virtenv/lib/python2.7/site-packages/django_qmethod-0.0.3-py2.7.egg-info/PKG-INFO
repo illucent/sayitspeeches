@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-qmethod
+Version: 0.0.3
+Summary: Define methods on QuerySets without custom manager and QuerySet subclasses.
+Home-page: http://github.com/zacharyvoase/django-qmethod
+Author: Zachary Voase
+Author-email: z@zacharyvoase.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

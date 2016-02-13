@@ -1,0 +1,14 @@
+[2016-02-08 17:13:09,772][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: CONFIG_SECCOMP not compiled into kernel, CONFIG_SECCOMP and CONFIG_SECCOMP_FILTER are needed
+[2016-02-08 17:13:10,851][INFO ][node                     ] [56b8edab0c1e66a425000098] version[2.2.0], pid[32657], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-08 17:13:10,851][INFO ][node                     ] [56b8edab0c1e66a425000098] initializing ...
+[2016-02-08 17:13:12,043][INFO ][plugins                  ] [56b8edab0c1e66a425000098] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-08 17:13:12,080][INFO ][env                      ] [56b8edab0c1e66a425000098] using [1] data paths, mounts [[/var/lib/openshift (/dev/mapper/EBSStore01-user_home01)]], net usable_space [31.1gb], net total_space [174.9gb], spins? [no], types [xfs]
+[2016-02-08 17:13:12,080][INFO ][env                      ] [56b8edab0c1e66a425000098] heap size [998.4mb], compressed ordinary object pointers [unknown]
+[2016-02-08 17:13:15,651][INFO ][node                     ] [56b8edab0c1e66a425000098] initialized
+[2016-02-08 17:13:15,651][INFO ][node                     ] [56b8edab0c1e66a425000098] starting ...
+[2016-02-08 17:13:15,752][INFO ][transport                ] [56b8edab0c1e66a425000098] publish_address {127.4.243.1:3306}, bound_addresses {127.4.243.1:3306}
+[2016-02-08 17:13:15,763][INFO ][discovery                ] [56b8edab0c1e66a425000098] 56b8edab0c1e66a425000098/q5WIzE4-S-CSduCCH9LEiw
+[2016-02-08 17:13:18,790][INFO ][cluster.service          ] [56b8edab0c1e66a425000098] new_master {56b8edab0c1e66a425000098}{q5WIzE4-S-CSduCCH9LEiw}{127.4.243.1}{127.4.243.1:3306}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-08 17:13:18,826][INFO ][http                     ] [56b8edab0c1e66a425000098] publish_address {127.4.243.1:8090}, bound_addresses {127.4.243.1:8090}
+[2016-02-08 17:13:18,827][INFO ][node                     ] [56b8edab0c1e66a425000098] started
+[2016-02-08 17:13:18,863][INFO ][gateway                  ] [56b8edab0c1e66a425000098] recovered [0] indices into cluster_state

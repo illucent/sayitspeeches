@@ -1,0 +1,27 @@
+{% extends 'speeches/base_form_select2.html' %}
+{% load url from future %}
+{% load speech_i18n %}
+{% load staticfiles %}
+
+{% block title %}
+  {% blocktrans with name=object.name trimmed %}
+    Delete speaker: {{ name }}
+  {% endblocktrans %}
+{% endblock %}
+
+{% block content %}
+
+  <div class="page-header">
+    <h1>
+      {% blocktrans with name=object.name trimmed %}
+        Delete speaker: {{ name }}
+      {% endblocktrans %}
+    </h1>
+  </div>
+
+  <form action="" method="post">
+    {% trans "Delete speaker" as submit %}
+    {% include 'speeches/form.html' with type="speaker_delete" submit=submit %}
+  </form>
+
+{% endblock %}

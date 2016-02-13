@@ -1,0 +1,18 @@
+[2016-02-11 18:33:30,062][INFO ][node                     ] [56b8edab0c1e66a425000098] stopping ...
+[2016-02-11 18:33:30,487][INFO ][node                     ] [56b8edab0c1e66a425000098] stopped
+[2016-02-11 18:33:30,487][INFO ][node                     ] [56b8edab0c1e66a425000098] closing ...
+[2016-02-11 18:33:30,580][INFO ][node                     ] [56b8edab0c1e66a425000098] closed
+[2016-02-11 18:34:49,846][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: CONFIG_SECCOMP not compiled into kernel, CONFIG_SECCOMP and CONFIG_SECCOMP_FILTER are needed
+[2016-02-11 18:34:50,912][INFO ][node                     ] [56b8edab0c1e66a425000098] version[2.2.0], pid[330920], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-11 18:34:50,913][INFO ][node                     ] [56b8edab0c1e66a425000098] initializing ...
+[2016-02-11 18:34:52,280][INFO ][plugins                  ] [56b8edab0c1e66a425000098] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-11 18:34:52,406][INFO ][env                      ] [56b8edab0c1e66a425000098] using [1] data paths, mounts [[/var/lib/openshift (/dev/mapper/EBSStore01-user_home01)]], net usable_space [29.8gb], net total_space [174.9gb], spins? [no], types [xfs]
+[2016-02-11 18:34:52,406][INFO ][env                      ] [56b8edab0c1e66a425000098] heap size [998.4mb], compressed ordinary object pointers [unknown]
+[2016-02-11 18:34:56,086][INFO ][node                     ] [56b8edab0c1e66a425000098] initialized
+[2016-02-11 18:34:56,087][INFO ][node                     ] [56b8edab0c1e66a425000098] starting ...
+[2016-02-11 18:34:56,246][INFO ][transport                ] [56b8edab0c1e66a425000098] publish_address {127.4.243.1:3306}, bound_addresses {127.4.243.1:3306}
+[2016-02-11 18:34:56,257][INFO ][discovery                ] [56b8edab0c1e66a425000098] 56b8edab0c1e66a425000098/OeueDbhLSnuodExYvUiJVA
+[2016-02-11 18:34:59,291][INFO ][cluster.service          ] [56b8edab0c1e66a425000098] new_master {56b8edab0c1e66a425000098}{OeueDbhLSnuodExYvUiJVA}{127.4.243.1}{127.4.243.1:3306}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-11 18:34:59,313][INFO ][http                     ] [56b8edab0c1e66a425000098] publish_address {127.4.243.1:9020}, bound_addresses {127.4.243.1:9020}
+[2016-02-11 18:34:59,315][INFO ][node                     ] [56b8edab0c1e66a425000098] started
+[2016-02-11 18:34:59,358][INFO ][gateway                  ] [56b8edab0c1e66a425000098] recovered [0] indices into cluster_state
