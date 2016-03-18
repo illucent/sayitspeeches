@@ -1,2 +1,0 @@
-scale_min=2
-scale_max=2
